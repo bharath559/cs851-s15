@@ -1,0 +1,34 @@
+
+\section{Question 2}
+\label{part2}
+\begin{itemize} 
+\item Ingest the 100 URIs from their resulting WARC files into a SOLR instance
+	   - see the code + tutorial at:
+	    ``\url{https://github.com/ukwa/webarchive-discovery}''
+
+\item Demonstrate several functioning queries on the files(a full front-end is not required)
+	  - describe the configuration choices you made in setting up SOLR and processing the 
+	  	documents
+\end{itemize}
+
+\subsection{Solution}
+
+The following steps were taken to configure SOLR and process documents :
+\begin{itemize}
+	\item The pre-requisites for SOLR are Maven 3 , Java 7 so I installed them.
+	\item I faced an issue while installing SOLR which is jetty dependency not found.
+	\item I got it working by adding the dependency to the pom.xml
+	\item mvn jetty:run-exploded this command starts the SOLR instance.
+	\item Indexing WARC file by using the command java -jar path of jar -s ``\url{http://localhost:8080/discovery}'' -t path of WARC
+	\item Here's demonstarting of how to retrive the names and ids of all documents with ``\url{http://localhost:8080/solr/select?q=inStock:false&wt=json&fl=id,name}''
+	\item Here we are using the functional query idf(field,term).This function returns the inverse document frequency for the given term, using the similarity for the field. ``\url{http://localhost:8080/solr/select/?fl=score,id&defType=func&q=mul(tf(text,memory),idf(text,memory))}''
+	
+	\item The functional query being used here is tf(field,term) and it returns the inverse document frequency factor for the given term using the similarity for the field. ``\url{http://localhost:8080/solr/select/?fl=score,id&defType=func&q=mul(tf($f,$t),idf($f,$t))&f=text&t=memory}''
+	
+	\item termfreq(field,term) is the functional query that is being used and it returns the number of times the term term appers for that field in the document. ``\url{http://localhost:8080/solr/select/?fl=score,id&q=DDR&sort=termfreq(text,memory) desc}''  
+	
+	\item here norm(field) is the functional query that is being used. It returns the norm stored in the index, the product of the index time boost and then length normalization factor. ``\url{http://localhost:8983/solr/select/?fl=score,id&q=DDR&sort=norm(text) asc}''    			  						        
+\end{itemize}
+\newpage
+
+
