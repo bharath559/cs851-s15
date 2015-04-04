@@ -1,0 +1,33 @@
+
+
+htmlfrequency <- read.table('graphhtml.txt', header=T)
+
+
+textfrequency <- read.table('graphtext.txt', header=T)
+
+xlimit <- c(1,50)
+ylimit <- c(44885,630405)
+plot(htmlfrequency$Frequency, type='l', col='blue', xlim=xlimit,ylim=ylimit,xlab='Word Rank', ylab='Word Frequency', xaxt='n',yaxt='n',main='Distribution of terms in HTML files before boilerplate \nremoval (blue) and after boilerplate removal (green)')
+
+lines(textfrequency$Frequency, type='o', col='green')
+
+myData <- read.table("graphhtml.txt")
+fullData = rep(myData[,1])
+textfrequency <- read.table('graphtext.txt', header=T)
+
+title <- "jusText Word Rank vs. Word Frequency"
+xlab <- "Word Rank"
+ylab <- "Word Frequency"
+
+pdf("boilerpipe_words.pdf", height=4.0, width=4.5)
+
+#extend margin
+# default: c(5,4,4,2) + 0.1
+# bottom, left, top, right
+#par(mar=c(2,2,3.0,2) + 0.1)
+
+mp <- plot(fullData, type="l", col="red", main=title, xlab=NA, ylab=NA, xaxt='n', yaxt='n')
+mtext(side=1, xlab, line=0.5)
+mtext(side=2, ylab, line=0.5)
+par(new = TRUE)
+plot(textfrequency$Frequency, type='l', col='green',xlab=NA, ylab=NA, xaxt='n', yaxt='n')
