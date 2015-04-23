@@ -1,0 +1,401 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -99.27500332, 
+          19.39826794
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Rose Rivero", 
+        "url": "http://twitter.com/rose_theOCgirl/status/591087452544114688", 
+        "text": "How did you celebrating the #EarthDay? \ud83d\ude4c\ud83d\ude0d\ud83c\udf3e\ud83c\udf0d\ud83d\udc24\ud83d\udc1d\ud83d\udc1e  Check our amazing team!!! With @IS_Foundation @ISFYouth @ISFCollege http://t.co/Hcc9qO4suO", 
+        "created_at": "Thu Apr 23 03:53:25 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/589943351966740480/n61M1iOx_normal.jpg", 
+        "screen_name": "rose_theOCgirl"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -90.0675897, 
+          29.951182
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Greening the MLB \u26be", 
+        "url": "http://twitter.com/GreeningTheMLB/status/591087346558242816", 
+        "text": "In the next tweets: Some fun(ny) earth-y songs to round out your #EarthDay. #earthdaysongs", 
+        "created_at": "Thu Apr 23 03:52:59 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/378800000398486180/25cfc673cb8e77a30f4cf455311a9c06_normal.png", 
+        "screen_name": "GreeningTheMLB"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -117.61944444, 
+          33.41916667
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Bre Olson", 
+        "url": "http://twitter.com/BreSellsOC/status/591087323669987328", 
+        "text": "Every day is #EarthDay \ud83c\udf0e @ San Clemente Pier https://t.co/RXeZXeELoU", 
+        "created_at": "Thu Apr 23 03:52:54 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/589291161363185664/rhUaoHYI_normal.jpg", 
+        "screen_name": "BreSellsOC"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -124.42976164, 
+          43.09466298
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Channing Marineau", 
+        "url": "http://twitter.com/twin_witty/status/591087318238420993", 
+        "text": "I'm gonna post an awesome #earthday photo even though I'm on my couch watching Netflix and eating\u2026 https://t.co/muAew0mSGI", 
+        "created_at": "Thu Apr 23 03:52:53 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/3562493509/482805fb8f45bd0744f1e69666f6d7be_normal.jpeg", 
+        "screen_name": "twin_witty"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.61807921, 
+          45.44640881
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Kara Busick", 
+        "url": "http://twitter.com/karabusick08/status/591087287326220288", 
+        "text": "#tulips from own big of #earth aka my #lawn! Happy #EarthDay! \ud83c\udf0d\ud83d\udc9a\u2600\ufe0f\ud83c\udf00 http://t.co/PbMObpS7EF", 
+        "created_at": "Thu Apr 23 03:52:45 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/436135675155345408/4XZapk9Z_normal.jpeg", 
+        "screen_name": "karabusick08"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -117.84383758, 
+          33.67381398
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Iman Sadri", 
+        "url": "http://twitter.com/iman__sadri/status/591087213649076225", 
+        "text": "Happy #EarthDay \ud83c\udf0d Cheers to the most livable planet on the #SolarSystem #PhiPhiIsland @NatGeoTravel #Thailand \ud83c\udf05 \ud83d\udea3\ud83d\uddfb http://t.co/jgCF18xT5A", 
+        "created_at": "Thu Apr 23 03:52:28 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/378800000863872303/nq0XREf9_normal.jpeg", 
+        "screen_name": "iman__sadri"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -79.88660529, 
+          -2.17390149
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "ErickRamos", 
+        "url": "http://twitter.com/erickramosbayas/status/591087153666469888", 
+        "text": "Our Earth, Our Home. \ud83c\udf0d\u267b\ufe0f\ud83c\udf05\ud83d\uddfb #earthday @ Happy Earth Day\ud83c\udf0d https://t.co/mP28uepSk1", 
+        "created_at": "Thu Apr 23 03:52:13 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/524115276393377792/9XziFRyN_normal.jpeg", 
+        "screen_name": "erickramosbayas"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -79.814036, 
+          40.544758
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Tanner Michael", 
+        "url": "http://twitter.com/TanMan365/status/591087044086079488", 
+        "text": "I'm a komodo dragon! What's your Earth Day #GoogleDoodle quiz animal? https://t.co/wPDFtgx3V9 #Earfday #EarthDay #Green", 
+        "created_at": "Thu Apr 23 03:51:47 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/567425965991931905/pv68Oscs_normal.jpeg", 
+        "screen_name": "TanMan365"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -118.39633457, 
+          33.92309562
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Andrea Park", 
+        "url": "http://twitter.com/andreaypark/status/591087031805222912", 
+        "text": "Low key always gonna have a thing for ya | Celebrating #earthday at the beach! #CaliforniaDreaming\u2026 https://t.co/3ekMZ146cf", 
+        "created_at": "Thu Apr 23 03:51:44 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/577603340353204224/3LmVJJBN_normal.jpeg", 
+        "screen_name": "andreaypark"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.27333333, 
+          43.95416667
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Paola", 
+        "url": "http://twitter.com/_paolacamargo/status/591087023030726656", 
+        "text": "Earth, you're a pretty great place \ud83c\udf0e #earthday @ Mount Chocorua https://t.co/YUkmq3Fpew", 
+        "created_at": "Thu Apr 23 03:51:42 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/493561738894135297/GvWWnYuS_normal.jpeg", 
+        "screen_name": "_paolacamargo"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -81.66709593, 
+          27.97340557
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Joann Shannon Niere", 
+        "url": "http://twitter.com/SlamminStar/status/591087012138115072", 
+        "text": "\ud83c\udf0e\ud83c\udf0d\ud83c\udf0f | apr twenty two\n|| PC: kelseyaah ||\n#vsco #earthday #sikethisisindoors @ Gaylord Palms Hotel https://t.co/8Wk35pzYMw", 
+        "created_at": "Thu Apr 23 03:51:40 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/587824038182920193/U7PMYmG4_normal.jpg", 
+        "screen_name": "SlamminStar"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -97.07846432, 
+          33.08300984
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Jessica De Paoli", 
+        "url": "http://twitter.com/jessdbaby/status/591086949399715840", 
+        "text": "Shout out to the EARTH and all the beautiful places out there like Hawaii\u2764\ufe0f\ud83c\udf3a\ud83c\udf34\ud83c\udf3b\ud83c\udf3f #earthday @\u2026 https://t.co/Y2M7lAJASD", 
+        "created_at": "Thu Apr 23 03:51:25 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/590737917947076610/DDrmNgZu_normal.jpg", 
+        "screen_name": "jessdbaby"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -98.2156424, 
+          44.3410399
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "John A. Hill", 
+        "url": "http://twitter.com/magicianary/status/591086947440852992", 
+        "text": "So driving almost 700 miles probably not the way to observe #EarthDay", 
+        "created_at": "Thu Apr 23 03:51:24 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/484587963968270337/DzVzq1jy_normal.jpeg", 
+        "screen_name": "magicianary"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.15096523, 
+          37.44336512
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Allyson Norling", 
+        "url": "http://twitter.com/wearnbackagain/status/591086786564247552", 
+        "text": "Appreciating some greenery and my furry love on #earthday !! Still super pooped from WATCHING p.k.22\u2026 https://t.co/5WtGLiRFZz", 
+        "created_at": "Thu Apr 23 03:50:46 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/492820618153185280/Scg3MTm0_normal.jpeg", 
+        "screen_name": "wearnbackagain"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -81.59544685, 
+          41.03068617
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Randi McCaughley", 
+        "url": "http://twitter.com/RandiiPants/status/591086743853649920", 
+        "text": "@GraydonFox oh we'll see about that #EarthDay #Browns #TSM", 
+        "created_at": "Thu Apr 23 03:50:36 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/587433163623944192/MXslHBkw_normal.jpg", 
+        "screen_name": "RandiiPants"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -117.16003785, 
+          33.12877444
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Tyler Kist", 
+        "url": "http://twitter.com/TylerKist/status/591086657350172673", 
+        "text": "You mean the world to me #EarthDay\ud83c\udf0e http://t.co/inuJiDvAz7", 
+        "created_at": "Thu Apr 23 03:50:15 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/565316859801915393/SKxxhuHM_normal.jpeg", 
+        "screen_name": "TylerKist"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -79.76137221, 
+          32.86204288
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Janet Li", 
+        "url": "http://twitter.com/janetnotjackson/status/591086526013968386", 
+        "text": "in honor of #EarthDay, biked 12 miles on a freeway (oops) to see a concert in a forest", 
+        "created_at": "Thu Apr 23 03:49:44 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/579902138739920896/uj9YTClI_normal.jpg", 
+        "screen_name": "janetnotjackson"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -79.8902823, 
+          43.236948
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "John Hannah", 
+        "url": "http://twitter.com/cya_outside/status/591086523723964416", 
+        "text": "https://t.co/BjvTC5YWNL A great closing message to round out #EarthDay 2015. Thanks for sharing AB!", 
+        "created_at": "Thu Apr 23 03:49:43 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/527637068978343937/j64CiG4L_normal.jpeg", 
+        "screen_name": "cya_outside"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -111.71455267, 
+          33.60147314
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Mitt Rohit", 
+        "url": "http://twitter.com/mitt_rohit/status/591086522536955904", 
+        "text": "Happy #earthDay\n#tb #fountainhill #biggest #fountain @ Fountain Hills Fountain https://t.co/vAUCOFMTsN", 
+        "created_at": "Thu Apr 23 03:49:43 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/527315251512246272/i0Oivpvg_normal.jpeg", 
+        "screen_name": "mitt_rohit"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -93.14814056, 
+          44.92986116
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Dan Schibel", 
+        "url": "http://twitter.com/corptreehugger/status/591086421571571712", 
+        "text": "@MarcGunther why does it seem that #EarthDay was more for promoting companies than about doing good!", 
+        "created_at": "Thu Apr 23 03:49:19 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/578517076450488320/mezwK4IX_normal.jpg", 
+        "screen_name": "corptreehugger"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -97.4680721, 
+          35.59729998
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Kirby Killen", 
+        "url": "http://twitter.com/kirbyrenae/status/591086420879613952", 
+        "text": "In honor of #EarthDay, here's my favorite place on Earth! \ud83c\udf0d\u2600\ufe0f\ud83d\udc99\ud83c\uddff\ud83c\udde6 @ Ghana, West Africa https://t.co/Nd5cVGcg1j", 
+        "created_at": "Thu Apr 23 03:49:19 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/418176164318822400/gNGTBkuZ_normal.jpeg", 
+        "screen_name": "kirbyrenae"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -122.4135517, 
+          37.78078355
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Audra Laquidara", 
+        "url": "http://twitter.com/audlaq/status/591086324154695680", 
+        "text": "So dumb that we actually have to \"fight\" for clean air &amp; clean water. There are ppl who don't agree we should have those! #EarthDay", 
+        "created_at": "Thu Apr 23 03:48:56 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/3598397753/ee56d12d41b6f91b94c4c532f0224cbb_normal.jpeg", 
+        "screen_name": "audlaq"
+      }
+    }
+  ]
+}
