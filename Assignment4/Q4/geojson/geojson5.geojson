@@ -1,0 +1,185 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -86.17404141, 
+          39.87947729
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Citizens Energy", 
+        "url": "http://twitter.com/citizensenergy/status/592408191146692608", 
+        "text": "Paul Werderitch explaining our water quality testing process to Cooper Harp. #EarthDay @JCCIndianapolis http://t.co/y1kNVsIv0L", 
+        "created_at": "Sun Apr 26 19:21:33 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/2552141500/c3shyldc90kvna8wjfyw_normal.jpeg", 
+        "screen_name": "citizensenergy"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -92.32743016, 
+          38.9508297
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Muse", 
+        "url": "http://twitter.com/MuseComo/status/592406720250519552", 
+        "text": "Flowers are in bloom stop by Muse for deep discounts before you hit Earth Day! #earthday #sales\u2026 https://t.co/9lCuEp4u9e", 
+        "created_at": "Sun Apr 26 19:15:43 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/3326241697/e5b63066a64121d45f04ae367acb5109_normal.jpeg", 
+        "screen_name": "MuseComo"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -86.17265018, 
+          39.8798896
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Citizens Energy", 
+        "url": "http://twitter.com/citizensenergy/status/592405122191216640", 
+        "text": "Our employees donating their time and talent for @JCCIndianapolis #EarthDay Community Celebration. http://t.co/YxZSElfw6r", 
+        "created_at": "Sun Apr 26 19:09:22 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/2552141500/c3shyldc90kvna8wjfyw_normal.jpeg", 
+        "screen_name": "citizensenergy"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -97.2560601, 
+          49.8418987
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "BlueDotWinnipeg", 
+        "url": "http://twitter.com/WpgBlueDot/status/592402541318635520", 
+        "text": "@FortWhyteAlive thanks for inviting #wpgbluedot to participate with you this #earthday to promote the #r2he! So fun! http://t.co/3S9mtNKUCw", 
+        "created_at": "Sun Apr 26 18:59:06 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/588391071421370368/RnUJjdM-_normal.png", 
+        "screen_name": "WpgBlueDot"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -86.17279187, 
+          39.88008251
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Citizens Energy", 
+        "url": "http://twitter.com/citizensenergy/status/592400430061199360", 
+        "text": "You still have time to drop off your old electronic devices for recycling @JCCIndianapolis #EarthDay celebration. http://t.co/qsrc4peCMr", 
+        "created_at": "Sun Apr 26 18:50:43 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/2552141500/c3shyldc90kvna8wjfyw_normal.jpeg", 
+        "screen_name": "citizensenergy"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -96.76172018, 
+          32.7795895
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Erika E", 
+        "url": "http://twitter.com/evesbk/status/592397560968564736", 
+        "text": "#EarthDay Texas!! (at @FairPark for Earth Day Texas in Dallas, TX) https://t.co/vLvJ9kaKcw", 
+        "created_at": "Sun Apr 26 18:39:19 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/589568142306779136/YyWQ3RUL_normal.jpg", 
+        "screen_name": "evesbk"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -90.258888, 
+          38.6428749
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Richard", 
+        "url": "http://twitter.com/RtodaizH/status/592394603447193600", 
+        "text": "#EarthDay Errday @stlouisearthday http://t.co/3lgLbIosPQ", 
+        "created_at": "Sun Apr 26 18:27:34 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/589820539813826563/FNb_Q_hc_normal.jpg", 
+        "screen_name": "RtodaizH"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -89.61193697, 
+          20.98740198
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "ipoop", 
+        "url": "http://twitter.com/Jazyel/status/592392902740967427", 
+        "text": "#EarthDay (@ Casa Faller w/ @hasaith) https://t.co/bp9amokHNz", 
+        "created_at": "Sun Apr 26 18:20:48 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/2861200263/701f4dc649b87affa8377ab95b3c7ca5_normal.jpeg", 
+        "screen_name": "Jazyel"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -66.88631, 
+          10.49971
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Gabriela", 
+        "url": "http://twitter.com/Gottara/status/592390207653212161", 
+        "text": "#earthday @ Parque Los Caobos https://t.co/0kiG1cj3tM", 
+        "created_at": "Sun Apr 26 18:10:06 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/566738549392048128/QaklkxrF_normal.jpeg", 
+        "screen_name": "Gottara"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -66.88631, 
+          10.49971
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Gabriela", 
+        "url": "http://twitter.com/Gottara/status/592389418658430976", 
+        "text": "Celebrando el dia de la tierra con los ni\u00f1os #earthday #cari\u00f1o #sunday @ Parque Los Caobos https://t.co/hW96fXw9Tm", 
+        "created_at": "Sun Apr 26 18:06:58 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/566738549392048128/QaklkxrF_normal.jpeg", 
+        "screen_name": "Gottara"
+      }
+    }
+  ]
+}

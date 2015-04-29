@@ -1,0 +1,149 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -77.04869775, 
+          38.91632866
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "GreeneaseApp", 
+        "url": "http://twitter.com/GreeneaseApp/status/591597549687025665", 
+        "text": "Our fabulous intern,@sevincsey, blending us some smoothies at GWU's #EarthDay! http://t.co/0w17ULrReB", 
+        "created_at": "Fri Apr 24 13:40:21 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/378800000167656424/a75cf86fd653362c36be57f33d204bb5_normal.jpeg", 
+        "screen_name": "GreeneaseApp"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          110.36656, 
+          -7.78659
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Yoga Pratama", 
+        "url": "http://twitter.com/bypjogja/status/591597007099273216", 
+        "text": "everything begins with a small step... #earthday #gogreen #photogrid #vscocam @ Roaster And Bear https://t.co/KbEkCiq5wh", 
+        "created_at": "Fri Apr 24 13:38:12 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/464046335818100737/bmpRNqnW_normal.jpeg", 
+        "screen_name": "bypjogja"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.3135447, 
+          25.6857718
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Chamber South", 
+        "url": "http://twitter.com/chambersouth/status/591591210264985600", 
+        "text": "Susan Shapiro of @tropicalaudubon giving us an #EarthDay update. http://t.co/pwzp3bwTVY", 
+        "created_at": "Fri Apr 24 13:15:10 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1503712642/ChamberSouthTwitter_normal.jpg", 
+        "screen_name": "chambersouth"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -87.68432934, 
+          42.05134319
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Margy Sweeney", 
+        "url": "http://twitter.com/margysweeney/status/591590163702292480", 
+        "text": "Looking forward to today's  #EarthDay chat! http://t.co/Vwbv1dhQbE", 
+        "created_at": "Fri Apr 24 13:11:00 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/2352962747/u2zgy64dnojwgzy52n8q_normal.jpeg", 
+        "screen_name": "margysweeney"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -74.36053502, 
+          40.77888363
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "NA Community Service", 
+        "url": "http://twitter.com/NA_service/status/591589203546353664", 
+        "text": "Celebrate #EarthDay this Sunday during our beach clean up event in Queens hosted by the Marine Biology club", 
+        "created_at": "Fri Apr 24 13:07:11 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/582311131240378368/rnE9QkcK_normal.jpg", 
+        "screen_name": "NA_service"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -85.893389, 
+          38.937857
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Cecily Noelker", 
+        "url": "http://twitter.com/cecibird/status/591588830450425856", 
+        "text": "Gift from a student who used a can and an old shirt to make a pencil holder. Love it! earthday\u2026 https://t.co/AZlibB7mHc", 
+        "created_at": "Fri Apr 24 13:05:43 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/458430186078224384/NLdaQfSI_normal.jpeg", 
+        "screen_name": "cecibird"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.1074556, 
+          42.3170559
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Franklin Park Boston", 
+        "url": "http://twitter.com/FranklinParkBos/status/591588599516295168", 
+        "text": "Spring clean up in Franklin Park tomorrow. #EarthDay #ArborDay2015  #BostonShines 1pm franklinpark http://t.co/9OwwJ8XskM", 
+        "created_at": "Fri Apr 24 13:04:47 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/3397996805/d5af1c5c5b1554f5aff98b4f6bc032b3_normal.jpeg", 
+        "screen_name": "FranklinParkBos"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.0437773, 
+          14.57809924
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Angela Valencia", 
+        "url": "http://twitter.com/geelaatto/status/591588185412513794", 
+        "text": "off to bgc #EarthDay \ud83c\udf1a", 
+        "created_at": "Fri Apr 24 13:03:09 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/589418506241777664/LoOb8Tqo_normal.jpg", 
+        "screen_name": "geelaatto"
+      }
+    }
+  ]
+}

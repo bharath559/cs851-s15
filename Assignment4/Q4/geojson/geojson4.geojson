@@ -1,0 +1,185 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.08825606, 
+          26.60919663
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Edwin Marquez", 
+        "url": "http://twitter.com/magnifed/status/591979232689004544", 
+        "text": "Volunteering, planting, painting and giving back to Mother Earth. #ccday #earthday @ Palm Beach\u2026 https://t.co/hO7GAQBU7F", 
+        "created_at": "Sat Apr 25 14:57:02 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/2121683181/ev_and_daddy_normal.jpg", 
+        "screen_name": "magnifed"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -81.710395, 
+          26.261073
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "HLevel Architects", 
+        "url": "http://twitter.com/HlevelArch/status/591978402904731648", 
+        "text": "#earthday #kidsfun at cornerstone garden naples http://t.co/Ntl0eT4vRC", 
+        "created_at": "Sat Apr 25 14:53:44 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/501763188250009600/1SxCNJIx_normal.png", 
+        "screen_name": "HlevelArch"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -118.46540904, 
+          34.0347527
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Health-Ade", 
+        "url": "http://twitter.com/HealthAde1/status/591973386445725697", 
+        "text": "Because purple IS a color that the Earth makes.\ud83d\udc9c #beet #kombucha #earthday #thinkoutsidethebox #healthydrinking http://t.co/XEmwxy95Cd", 
+        "created_at": "Sat Apr 25 14:33:48 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/523153623660761088/JbUY3a_m_normal.png", 
+        "screen_name": "HealthAde1"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -87.82569522, 
+          42.05472423
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Andrew Hayes", 
+        "url": "http://twitter.com/AndrewHayesPR/status/591971933610254336", 
+        "text": "Recycle computers, TVs, printers and other electronics 10am to 1pm TODAY @FifthThird 8001 W Golf Rd, Niles #EarthDay http://t.co/S2f9Ca8IVY", 
+        "created_at": "Sat Apr 25 14:28:01 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/378800000775770749/7242ed5ecf2a1c17c8d7f6080b5ba3e6_normal.jpeg", 
+        "screen_name": "AndrewHayesPR"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -97.06721383, 
+          49.932025
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Ashley", 
+        "url": "http://twitter.com/Nichol05/status/591971411675226112", 
+        "text": "Recycle your fridge responsibly and reduce your impact on the environment. #earthday #recycle\u2026 https://t.co/SQExPJGl9R", 
+        "created_at": "Sat Apr 25 14:25:57 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/591969620199772160/_Tztw3qk_normal.jpg", 
+        "screen_name": "Nichol05"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          101.87538696, 
+          2.95255498
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "farhanzaki_", 
+        "url": "http://twitter.com/farhanzaki_/status/591971141415260160", 
+        "text": "Green View | 25April2015\n\n#BrogaHill #Semenyih #Kajang #Selangor #JomDaki #Vadsters #EarthDay\u2026 https://t.co/BD945lyuvK", 
+        "created_at": "Sat Apr 25 14:24:53 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/591078314636226560/DFdEpesF_normal.jpg", 
+        "screen_name": "farhanzaki_"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -76.15551567, 
+          43.04794116
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Mark Cardone", 
+        "url": "http://twitter.com/MarkCardone/status/591971047089410049", 
+        "text": "It was awesome to see volunteers scaling the walls of the Creek Walk picking up garbage. Awesome #Earthday #Creekwalk http://t.co/G6bGPt0XVG", 
+        "created_at": "Sat Apr 25 14:24:30 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/479726290879012864/5BH6BUdO_normal.jpeg", 
+        "screen_name": "MarkCardone"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -75.33834036, 
+          40.13285736
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Impact Thrift Stores", 
+        "url": "http://twitter.com/ImpactThrift/status/591970909445042176", 
+        "text": "It's a #PartyForThePlanet today @ElmwoodParkZoo #upcycle #recycle #EarthDay http://t.co/LEGqanZnmX", 
+        "created_at": "Sat Apr 25 14:23:57 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1718034869/ImpactPoint_normal.jpg", 
+        "screen_name": "ImpactThrift"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -75.02042944, 
+          39.89939759
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Planet Earth Store", 
+        "url": "http://twitter.com/planetearthstor/status/591968676942872576", 
+        "text": "Come see us at the green festival #earthday #sustainability http://t.co/XZzYMpnSmB", 
+        "created_at": "Sat Apr 25 14:15:05 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/581991612399620096/kZis4KXi_normal.jpg", 
+        "screen_name": "planetearthstor"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -81.43783092, 
+          28.55372898
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Teresa Lites", 
+        "url": "http://twitter.com/TLites80/status/591968333030944768", 
+        "text": "EarthDay Birthday @wjrr (@ Central Florida Fairgrounds for WJRR Earthday Birthday in Orlando, FL) https://t.co/tReSaE0hjc", 
+        "created_at": "Sat Apr 25 14:13:43 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/585963622028996608/xS-SxUfv_normal.jpg", 
+        "screen_name": "TLites80"
+      }
+    }
+  ]
+}

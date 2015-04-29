@@ -1,0 +1,113 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -70.80436384, 
+          43.08788907
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Keith Tharp", 
+        "url": "http://twitter.com/KeithTharp/status/591372275070464001", 
+        "text": "Our Earth Day haul at Hodgson Brook! #cleaningUp with greenalliance @redhook_brewery #earthday #trash\u2026 https://t.co/hRg3sxk0sl", 
+        "created_at": "Thu Apr 23 22:45:12 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/575445564382298112/Ns7hvy0j_normal.jpeg", 
+        "screen_name": "KeithTharp"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -119.74821485, 
+          36.8007764
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "kalene", 
+        "url": "http://twitter.com/Kaleniiie/status/591372241633484801", 
+        "text": "glacier point // 4.22.15 #earthday @ Glacier Point, Yosemite National Park https://t.co/Ifz5Z6sRHs", 
+        "created_at": "Thu Apr 23 22:45:04 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/590621215355699200/d8GzedBa_normal.jpg", 
+        "screen_name": "Kaleniiie"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -74.1178, 
+          4.6564
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Trendinalia Colombia", 
+        "url": "http://twitter.com/trendinaliaCO/status/591371760282390529", 
+        "text": "#EarthDay estuvo el mi\u00e9rcoles 22 como Tendencia en Colombia durante 5 horas: http://t.co/pbwVyApdVL #trndnl", 
+        "created_at": "Thu Apr 23 22:43:09 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/3295524071/1342537e41e4f002844d7f63f6ba055f_normal.png", 
+        "screen_name": "trendinaliaCO"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -66.4289, 
+          18.2233
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Trendinalia PR", 
+        "url": "http://twitter.com/trendinaliaPR/status/591371132831305728", 
+        "text": "6. Maunabo\n7. #earthday\n8. Chile\n9. Imagine Dragons\n10. Chicharito\n\n2015/4/23 18:37 AST #trndnl http://t.co/Q2h6KsMyr0", 
+        "created_at": "Thu Apr 23 22:40:39 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/434445738840297472/mxb5pbxP_normal.png", 
+        "screen_name": "trendinaliaPR"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -73.99100093, 
+          40.77030697
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Bender, Amanda", 
+        "url": "http://twitter.com/abenderr35/status/591368635555389441", 
+        "text": "In honor of Earth Day, @Uber_NYC is offering $5 #uberPOOL flat rates in Manhattan through 4/26. Details: http://t.co/2WoJFmXZYG", 
+        "created_at": "Thu Apr 23 22:30:44 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/590209982001451009/TZiN2Vcv_normal.jpg", 
+        "screen_name": "abenderr35"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -1.1404, 
+          52.6379
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Leicester Trends", 
+        "url": "http://twitter.com/trendinaliaLCS/status/591368247364100096", 
+        "text": "The hashtag #EarthDay took the 5th place in the Top20 of Leicester's Trends for Wednesday 22: http://t.co/J3GsVGzmgO #trndnl", 
+        "created_at": "Thu Apr 23 22:29:11 +0000 2015", 
+        "profile_image_url": "http://pbs.twimg.com/profile_images/344513261567855023/73ed351238e684e00272c5bec12879dc_normal.png", 
+        "screen_name": "trendinaliaLCS"
+      }
+    }
+  ]
+}
