@@ -1,0 +1,1 @@
+[u'http://web.archive.org/web/20150210052431/http://www.nfl.com/news/story/0ap3000000469545/article/brett-favre-makes-retirement-date-at-lambeau-official*+*+*Tue, 10 Feb 2015 05:24:31 GMT', u'http://web.archive.org/web/20150405110952/http://www.nfl.com/news/story/0ap3000000469545/article/brett-favre-makes-retirement-date-at-lambeau-official*+*+*Sun, 05 Apr 2015 11:09:52 GMT']

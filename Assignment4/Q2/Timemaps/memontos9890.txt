@@ -1,0 +1,2 @@
+[u'http://web.archive.org/web/20150219134109/http://www.vox.com/2015/2/9/8005833/russia-anti-american*+*+*Thu, 19 Feb 2015 13:41:09 GMT', u'http://web.archive.org/web/20150316233947/http://www.vox.com/2015/2/9/8005833/russia-anti-american*+*+*Mon, 16 Mar 2015 23:39:47 GMT']
+[u'http://archive.is/20150209202335/http://www.vox.com/2015/2/9/8005833/russia-anti-american*+*+*Mon, 9 Feb 2015 20:23:35 GMT']

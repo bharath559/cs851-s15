@@ -1,0 +1,3 @@
+[u'//wayback.archive-it.org/all/20150217085924/http://7online.com/education/exclusive-rockland-principal-recorded-cursing-at-threatening-students/510037/*+*+*Tue, 17 Feb 2015 08:59:24 GMT']
+[u'http://web.archive.org/web/20150217085924/http://7online.com/education/exclusive-rockland-principal-recorded-cursing-at-threatening-students/510037/*+*+*Tue, 17 Feb 2015 08:59:24 GMT', u'http://web.archive.org/web/20150321041713/http://7online.com/education/exclusive-rockland-principal-recorded-cursing-at-threatening-students/510037/*+*+*Sat, 21 Mar 2015 04:17:13 GMT']
+[u'http://archive.is/20150211214746/http://7online.com/education/exclusive-rockland-principal-recorded-cursing-at-threatening-students/510037/*+*+*Wed, 11 Feb 2015 21:47:46 GMT']

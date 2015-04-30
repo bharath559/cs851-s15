@@ -1,0 +1,1 @@
+[u'http://web.archive.org/web/20150210181433/http://av.watch.impress.co.jp/docs/news/20150209_687586.html*+*+*Tue, 10 Feb 2015 18:14:33 GMT', u'http://web.archive.org/web/20150405162233/http://av.watch.impress.co.jp/docs/news/20150209_687586.html*+*+*Sun, 05 Apr 2015 16:22:33 GMT']

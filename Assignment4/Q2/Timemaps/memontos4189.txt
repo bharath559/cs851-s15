@@ -1,0 +1,1 @@
+[u'http://web.archive.org/web/20120726010326/http://www.discoverthedinosaurs.com/Events/huntington.html*+*+*Thu, 26 Jul 2012 01:03:26 GMT', u'http://web.archive.org/web/20120825163153/http://www.discoverthedinosaurs.com/Events/huntington.html*+*+*Sat, 25 Aug 2012 16:31:53 GMT']

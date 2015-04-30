@@ -1,0 +1,2 @@
+[u'//wayback.archive-it.org/all/20130524044424/http://engabunaser.blogspot.com/2013/02/blog-post_1565.html?m=1*+*+*Fri, 24 May 2013 04:44:24 GMT']
+[u'http://web.archive.org/web/20130409071506/http://engabunaser.blogspot.com/2013/02/blog-post_1565.html?m=1*+*+*Tue, 09 Apr 2013 07:15:06 GMT', u'http://web.archive.org/web/20130524044424/http://engabunaser.blogspot.com/2013/02/blog-post_1565.html?m=1*+*+*Fri, 24 May 2013 04:44:24 GMT', u'http://web.archive.org/web/20140126021122/http://engabunaser.blogspot.com/2013/02/blog-post_1565.html?m=1*+*+*Sun, 26 Jan 2014 02:11:22 GMT']

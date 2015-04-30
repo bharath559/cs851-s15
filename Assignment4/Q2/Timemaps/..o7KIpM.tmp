@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width" />
+<title>MAPLESIDE FARMS</title>
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/font-awesome.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/media_screen.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+ 
+<header>
+	<div class="container">
+		<div class="row">
+        	<div class="text-center">
+            <img src="images/logo-contrasthigh.png" class="contrast-logo">
+             <img src="images/logo-bliss.png" class="logo-main">
+             <div class="purchase"><a href="http://blissevent.brownpapertickets.com"><img src="images/cta-buytickets.png"></a></div>
+          		</div>
+           </div>
+       </div>
+</header> 
+
+<div class="banner_middle">
+	<div class="container">
+    	<div class="row">
+        	<div class="text-center">
+friday •  feb 13, 2015 • 8P - MIDNIGHT
+			</div>
+		</div>
+	</div>
+</div> 
+
+<div class="maincontaintentpanel">
+	<div class="container">
+    	<div class="row">
+        	<div class="col-md-6">
+            	<img src="images/logo-thelodge.png" class="img-center"> 
+                <p class="address">294 Pearl Road, Brunswick</p>
+        	</div> 
+            <div class="col-md-6">
+            	<h2 class="subhead">Sip. Bite. Indulge</h2>
+                <p class="about">Bliss is the perfect start to Valentine’s Day weekend with dancing, sipping and chocolate tasting.  Upon entering,you will be presented with 2 complimentary drink tickets, 
+6 complimentary sweet &amp; savory bite tickets and a map 
+of the event to guide you through the indulgent evening. </p>
+            </div>
+      </div>
+    </div>
+</div> 
+
+<div class="cta-bliss">
+	<div class="container">
+    	<div class="row">
+        	<div class="col-md-4">
+            	<div class="price"><p>$30 per ticket or $50 for two</p></div>
+              </div>
+             <div class="col-md-4">
+             	<div class="purchase"><a href="http://blissevent.brownpapertickets.com"><img src="images/cta-buytickets.png" class="img-center"></a></div>
+              </div>
+			 <div class="col-md-4">
+            <div class="description"> <p>Ticket  includes  6  tastings, 2  complimentary  drinks &amp;  entertainment</p></div>
+             </div>
+       </div>
+     </div> 
+    </div>
+ 
+ <div class="experience">
+ 	<div class="container">
+    	<div class="row">
+        	<div class="col-md-12">
+            	<h2>#Experience Bliss</h2> <img src="images/graphic-heart.png">
+            	</div>
+         </div>
+    </div>
+ </div>
+ 
+ 
+</body>
+	<script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+</html>

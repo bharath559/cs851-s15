@@ -1,0 +1,1 @@
+[u'http://web.archive.org/web/20140803032256/http://shindanmaker.com/463800*+*+*Sun, 03 Aug 2014 03:22:56 GMT', u'http://web.archive.org/web/20150319014416/http://shindanmaker.com/463800*+*+*Thu, 19 Mar 2015 01:44:16 GMT']

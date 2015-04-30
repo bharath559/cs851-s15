@@ -1,0 +1,2 @@
+[u'//wayback.archive-it.org/all/20141217092107/http://twitter.com/WarmCigarette_/status/544874370640793600/photo/1*+*+*Wed, 17 Dec 2014 09:21:07 GMT', u'//wayback.archive-it.org/all/20141217092117/https://twitter.com/WarmCigarette_/status/544874370640793600/photo/1*+*+*Wed, 17 Dec 2014 09:21:17 GMT']
+[u'http://web.archive.org/web/20141217092107/http://twitter.com/WarmCigarette_/status/544874370640793600/photo/1*+*+*Wed, 17 Dec 2014 09:21:07 GMT']

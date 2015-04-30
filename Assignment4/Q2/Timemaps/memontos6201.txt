@@ -1,0 +1,2 @@
+[u'//wayback.archive-it.org/all/20150201014810/http://www.newsweekjapan.jp/stories/world/2015/01/post-3535.php*+*+*Sun, 01 Feb 2015 01:48:10 GMT']
+[u'http://web.archive.org/web/20150201014810/http://www.newsweekjapan.jp/stories/world/2015/01/post-3535.php*+*+*Sun, 01 Feb 2015 01:48:10 GMT', u'http://web.archive.org/web/20150205220604/http://www.newsweekjapan.jp/stories/world/2015/01/post-3535.php*+*+*Thu, 05 Feb 2015 22:06:04 GMT', u'http://web.archive.org/web/20150317225701/http://www.newsweekjapan.jp/stories/world/2015/01/post-3535.php*+*+*Tue, 17 Mar 2015 22:57:01 GMT']

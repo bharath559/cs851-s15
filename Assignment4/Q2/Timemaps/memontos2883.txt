@@ -1,0 +1,2 @@
+[u'//wayback.archive-it.org/all/20150320221429/https://www.youtube.com/watch?v=44kityInDvM&feature=youtu.be*+*+*Fri, 20 Mar 2015 22:14:29 GMT']
+[u'http://web.archive.org/web/20120606104701/http://www.youtube.com/watch?v=44kityInDvM&feature=youtu.be*+*+*Wed, 06 Jun 2012 10:47:01 GMT', u'http://web.archive.org/web/20141021063218/http://www.youtube.com/watch?v=44kityInDvM&feature=youtu.be*+*+*Tue, 21 Oct 2014 06:32:18 GMT', u'http://web.archive.org/web/20150320221429/https://www.youtube.com/watch?v=44kityInDvM&feature=youtu.be*+*+*Fri, 20 Mar 2015 22:14:29 GMT']

@@ -1,0 +1,1 @@
+[u'http://web.archive.org/web/20150209220002/http://www.elcaribe.com.do/2015/02/09/cayo-nieve-escarcha-constanza*+*+*Mon, 09 Feb 2015 22:00:02 GMT', u'http://web.archive.org/web/20150209220045/http://www.elcaribe.com.do/2015/02/09/cayo-nieve-escarcha-constanza*+*+*Mon, 09 Feb 2015 22:00:45 GMT']

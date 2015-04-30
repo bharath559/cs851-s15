@@ -1,0 +1,2 @@
+[u'http://web.archive.org/web/20150324163409/http://www.vegasmaster.com/giveaway/january-2015-ipad-mini/*+*+*Tue, 24 Mar 2015 16:34:09 GMT', u'http://web.archive.org/web/20150404220014/http://www.vegasmaster.com/giveaway/january-2015-ipad-mini/*+*+*Sat, 04 Apr 2015 22:00:14 GMT']
+[u'http://archive.is/20150114230205/http://www.vegasmaster.com/giveaway/january-2015-ipad-mini/*+*+*Wed, 14 Jan 2015 23:02:05 GMT']

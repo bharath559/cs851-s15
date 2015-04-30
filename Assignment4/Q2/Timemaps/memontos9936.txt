@@ -1,0 +1,2 @@
+[u'http://web.archive.org/web/20130328113602/http://official.stardust.co.jp/konishi/message/index.html*+*+*Thu, 28 Mar 2013 11:36:02 GMT', u'http://web.archive.org/web/20130410011211/http://official.stardust.co.jp/konishi/message/index.html*+*+*Wed, 10 Apr 2013 01:12:11 GMT', u'http://web.archive.org/web/20130625034948/http://official.stardust.co.jp/konishi/message/index.html*+*+*Tue, 25 Jun 2013 03:49:48 GMT']
+[u'http://archive.is/20130624045659/http://official.stardust.co.jp/konishi/message/index.html*+*+*Mon, 24 Jun 2013 04:56:59 GMT']

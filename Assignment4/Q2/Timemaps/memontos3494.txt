@@ -1,0 +1,1 @@
+[u'http://web.archive.org/web/20090613045418/http://www.batross.com/*+*+*Sat, 13 Jun 2009 04:54:18 GMT', u'http://web.archive.org/web/20090714002949/http://www.batross.com/*+*+*Tue, 14 Jul 2009 00:29:49 GMT', u'http://web.archive.org/web/20150426012655/http://batross.com/*+*+*Sun, 26 Apr 2015 01:26:55 GMT']

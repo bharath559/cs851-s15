@@ -1,0 +1,2 @@
+[u'//wayback.archive-it.org/all/20150217024053/https://s3.eu-central-1.amazonaws.com/go-win/r.html?offer_id=298&aff_id=134&aff_sub=wataspp*+*+*Tue, 17 Feb 2015 02:40:53 GMT']
+[u'http://web.archive.org/web/20150217024053/https://s3.eu-central-1.amazonaws.com/go-win/r.html?offer_id=298&aff_id=134&aff_sub=wataspp*+*+*Tue, 17 Feb 2015 02:40:53 GMT']

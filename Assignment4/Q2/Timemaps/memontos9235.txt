@@ -1,0 +1,3 @@
+[u'//wayback.archive-it.org/all/20150210222815/http://www.huffingtonpost.com/2015/02/09/supreme-court-gay-marriage-clarence-thomas_n_6646404.html*+*+*Tue, 10 Feb 2015 22:28:15 GMT']
+[u'http://web.archive.org/web/20150210072856/http://www.huffingtonpost.com/2015/02/09/supreme-court-gay-marriage-clarence-thomas_n_6646404.html*+*+*Tue, 10 Feb 2015 07:28:56 GMT', u'http://web.archive.org/web/20150423213645/http://www.huffingtonpost.com/2015/02/09/supreme-court-gay-marriage-clarence-thomas_n_6646404.html*+*+*Thu, 23 Apr 2015 21:36:45 GMT']
+[u'http://archive.is/20150209235749/http://www.huffingtonpost.com/2015/02/09/supreme-court-gay-marriage-clarence-thomas_n_6646404.html*+*+*Mon, 9 Feb 2015 23:57:49 GMT']

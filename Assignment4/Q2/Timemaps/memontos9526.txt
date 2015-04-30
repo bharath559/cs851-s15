@@ -1,0 +1,2 @@
+[u'http://www.webcitation.org/5xFfV7ufx*+*+*Thu, 17 Mar 2011 12:43:40 GMT']
+[u'http://web.archive.org/web/20100903213435/http://pinksugaratlanta.ning.com/page/advertising-1*+*+*Fri, 03 Sep 2010 21:34:35 GMT', u'http://web.archive.org/web/20100916061508/http://pinksugaratlanta.ning.com/page/advertising-1*+*+*Thu, 16 Sep 2010 06:15:08 GMT', u'http://web.archive.org/web/20111022065659/http://pinksugaratlanta.ning.com/page/advertising-1*+*+*Sat, 22 Oct 2011 06:56:59 GMT']

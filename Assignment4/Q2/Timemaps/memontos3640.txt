@@ -1,0 +1,1 @@
+[u'http://web.archive.org/web/20150209210403/http://vz.ru/news/2015/2/9/728690.html*+*+*Mon, 09 Feb 2015 21:04:03 GMT', u'http://web.archive.org/web/20150210025458/http://www.vz.ru/news/2015/2/9/728690.html*+*+*Tue, 10 Feb 2015 02:54:58 GMT']

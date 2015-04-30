@@ -1,0 +1,3 @@
+[u'//wayback.archive-it.org/all/20150327023537/http://electronicintifada.net/content/israels-open-fire-policy-wiped-out-entire-families-gaza-says-new-study/14240*+*+*Fri, 27 Mar 2015 02:35:37 GMT']
+[u'http://web.archive.org/web/20150321193337/http://electronicintifada.net/content/israels-open-fire-policy-wiped-out-entire-families-gaza-says-new-study/14240*+*+*Sat, 21 Mar 2015 19:33:37 GMT', u'http://web.archive.org/web/20150327023537/http://electronicintifada.net/content/israels-open-fire-policy-wiped-out-entire-families-gaza-says-new-study/14240*+*+*Fri, 27 Mar 2015 02:35:37 GMT']
+[u'http://archive.is/20150207143906/http://electronicintifada.net/content/israels-open-fire-policy-wiped-out-entire-families-gaza-says-new-study/14240*+*+*Sat, 7 Feb 2015 14:39:06 GMT']

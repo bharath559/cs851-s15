@@ -1,0 +1,2 @@
+[u'//wayback.archive-it.org/all/20150206063839/http://www.youtube.com/watch?v=8jSdXQQeOZY&feature=youtu.be*+*+*Fri, 06 Feb 2015 06:38:39 GMT', u'//wayback.archive-it.org/all/20150206063842/https://www.youtube.com/watch?v=8jSdXQQeOZY&feature=youtu.be*+*+*Fri, 06 Feb 2015 06:38:42 GMT']
+[u'http://web.archive.org/web/20150206063839/http://www.youtube.com/watch?v=8jSdXQQeOZY&feature=youtu.be*+*+*Fri, 06 Feb 2015 06:38:39 GMT', u'http://web.archive.org/web/20150206063842/https://www.youtube.com/watch?v=8jSdXQQeOZY&feature=youtu.be*+*+*Fri, 06 Feb 2015 06:38:42 GMT']

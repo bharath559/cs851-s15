@@ -1,0 +1,2 @@
+[u'//wayback.archive-it.org/all/20150216131233/http://locosino.com/*+*+*Mon, 16 Feb 2015 13:12:33 GMT', u'//wayback.archive-it.org/all/20150216131239/http://www.locosino.com/*+*+*Mon, 16 Feb 2015 13:12:39 GMT', u'//wayback.archive-it.org/all/20150216131241/http://www.locosino.com//*+*+*Mon, 16 Feb 2015 13:12:41 GMT', u'//wayback.archive-it.org/all/20150216131245/https://locosino.com/*+*+*Mon, 16 Feb 2015 13:12:45 GMT']
+[u'http://web.archive.org/web/20150216131233/http://locosino.com/*+*+*Mon, 16 Feb 2015 13:12:33 GMT']

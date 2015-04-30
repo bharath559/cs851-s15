@@ -1,0 +1,2 @@
+[u'//wayback.archive-it.org/all/20150108035428/https://itunes.apple.com/us/app/tweepr/id640523527?mt=8*+*+*Thu, 08 Jan 2015 03:54:28 GMT']
+[u'http://web.archive.org/web/20131024120304/https://itunes.apple.com/us/app/tweepr/id640523527?mt=8*+*+*Thu, 24 Oct 2013 12:03:04 GMT', u'http://web.archive.org/web/20150108035428/https://itunes.apple.com/us/app/tweepr/id640523527?mt=8*+*+*Thu, 08 Jan 2015 03:54:28 GMT']

@@ -1,0 +1,2 @@
+[u'//wayback.archive-it.org/all/20150429153414/http://www.pewresearch.org/fact-tank/2015/02/09/as-nigerians-head-to-the-polls-6-facts-about-public-opinion/*+*+*Wed, 29 Apr 2015 15:34:14 GMT']
+[u'http://web.archive.org/web/20150318091427/http://www.pewresearch.org/fact-tank/2015/02/09/as-nigerians-head-to-the-polls-6-facts-about-public-opinion/*+*+*Wed, 18 Mar 2015 09:14:27 GMT', u'http://web.archive.org/web/20150415000632/http://www.pewresearch.org/fact-tank/2015/02/09/as-nigerians-head-to-the-polls-6-facts-about-public-opinion/*+*+*Wed, 15 Apr 2015 00:06:32 GMT']

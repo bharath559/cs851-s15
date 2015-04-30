@@ -1,0 +1,2 @@
+[u'http://web.archive.org/web/20150210014807/http://www.dailymail.co.uk/news/article-2946213/Teen-complains-Twitter-starting-f-job-gets-fired.html*+*+*Tue, 10 Feb 2015 01:48:07 GMT', u'http://web.archive.org/web/20150401112144/http://www.dailymail.co.uk/news/article-2946213/Teen-complains-Twitter-starting-f-job-gets-fired.html*+*+*Wed, 01 Apr 2015 11:21:44 GMT']
+[u'http://archive.is/20150209221358/http://www.dailymail.co.uk/news/article-2946213/Teen-complains-Twitter-starting-f-job-gets-fired.html*+*+*Mon, 9 Feb 2015 22:13:58 GMT']

@@ -1,0 +1,2 @@
+[u'//wayback.archive-it.org/all/20150123172131/http://www.amazon.com/gp/product/B00491C72A?ie=UTF8&camp=213733&creative=393177&creativeASIN=B00491C72A&linkCode=shr&tag=beintgcapt-20&linkId=2R5NBB22F2Y5GD6I*+*+*Fri, 23 Jan 2015 17:21:31 GMT']
+[u'http://web.archive.org/web/20150123172131/http://www.amazon.com/gp/product/B00491C72A?ie=UTF8&camp=213733&creative=393177&creativeASIN=B00491C72A&linkCode=shr&tag=beintgcapt-20&linkId=2R5NBB22F2Y5GD6I*+*+*Fri, 23 Jan 2015 17:21:31 GMT']

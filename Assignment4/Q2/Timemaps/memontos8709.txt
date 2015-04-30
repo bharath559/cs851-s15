@@ -1,0 +1,2 @@
+[u'//wayback.archive-it.org/all/20150215102729/http://www.freep.com/story/news/politics/2015/02/09/state-budget-rick-snyder/23090885/*+*+*Sun, 15 Feb 2015 10:27:29 GMT']
+[u'http://web.archive.org/web/20150209065255/http://www.freep.com/story/news/politics/2015/02/09/state-budget-rick-snyder/23090885/*+*+*Mon, 09 Feb 2015 06:52:55 GMT', u'http://web.archive.org/web/20150215102729/http://www.freep.com/story/news/politics/2015/02/09/state-budget-rick-snyder/23090885/*+*+*Sun, 15 Feb 2015 10:27:29 GMT']

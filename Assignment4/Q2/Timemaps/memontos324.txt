@@ -1,0 +1,1 @@
+[u'http://web.archive.org/web/20130402094537/http://ameblo.jp/tctchoj7/*+*+*Tue, 02 Apr 2013 09:45:37 GMT', u'http://web.archive.org/web/20130412220808/http://ameblo.jp/tctchoj7/*+*+*Fri, 12 Apr 2013 22:08:08 GMT']

@@ -1,0 +1,1 @@
+[u'http://web.archive.org/web/20110124202353/http://www.weather.com/weather/today/04860*+*+*Mon, 24 Jan 2011 20:23:53 GMT', u'http://web.archive.org/web/20120701175056/http://www.weather.com/weather/today/04860*+*+*Sun, 01 Jul 2012 17:50:56 GMT']

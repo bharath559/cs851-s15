@@ -1,0 +1,2 @@
+[u'http://web.archive.org/web/20150210100814/http://rt.com/usa/230759-cnn-us-troops-ukraine/*+*+*Tue, 10 Feb 2015 10:08:14 GMT', u'http://web.archive.org/web/20150329170646/http://rt.com/usa/230759-cnn-us-troops-ukraine/*+*+*Sun, 29 Mar 2015 17:06:46 GMT', u'http://web.archive.org/web/20150406035507/http://rt.com/usa/230759-cnn-us-troops-ukraine/*+*+*Mon, 06 Apr 2015 03:55:07 GMT']
+[u'http://archive.is/20150210020743/http://rt.com/usa/230759-cnn-us-troops-ukraine/*+*+*Tue, 10 Feb 2015 02:07:43 GMT']

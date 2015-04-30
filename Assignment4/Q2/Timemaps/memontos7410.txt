@@ -1,0 +1,1 @@
+[u'http://web.archive.org/web/20150327220510/http://twitter.com/WoWFactz/status/523134519793033217/photo/1*+*+*Fri, 27 Mar 2015 22:05:10 GMT', u'http://web.archive.org/web/20150327220511/https://twitter.com/WoWFactz/status/523134519793033217/photo/1*+*+*Fri, 27 Mar 2015 22:05:11 GMT']

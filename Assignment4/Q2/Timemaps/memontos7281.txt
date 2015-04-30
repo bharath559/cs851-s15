@@ -1,0 +1,2 @@
+[u'//wayback.archive-it.org/all/20150131165119/http://health-fitness-you.info/*+*+*Sat, 31 Jan 2015 16:51:19 GMT', u'//wayback.archive-it.org/all/20150312013741/http://health-fitness-you.info/*+*+*Thu, 12 Mar 2015 01:37:41 GMT']
+[u'http://web.archive.org/web/20150131165119/http://health-fitness-you.info/*+*+*Sat, 31 Jan 2015 16:51:19 GMT', u'http://web.archive.org/web/20150312013741/http://health-fitness-you.info/*+*+*Thu, 12 Mar 2015 01:37:41 GMT']

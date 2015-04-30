@@ -1,0 +1,2 @@
+[u'http://web.archive.org/web/20150209060909/http://www.comicbookresources.com/?page=article&id=59144*+*+*Mon, 09 Feb 2015 06:09:09 GMT', u'http://web.archive.org/web/20150428094951/http://www.comicbookresources.com/?page=article&id=59144*+*+*Tue, 28 Apr 2015 09:49:51 GMT']
+[u'http://archive.is/20150208221438/http://www.comicbookresources.com/?page=article&id=59144*+*+*Sun, 8 Feb 2015 22:14:38 GMT']

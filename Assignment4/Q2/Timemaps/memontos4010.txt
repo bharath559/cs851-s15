@@ -1,0 +1,1 @@
+[u'http://web.archive.org/web/20120702163425/http://ask.fm/OmercanAkkalabak*+*+*Mon, 02 Jul 2012 16:34:25 GMT', u'http://web.archive.org/web/20120912023034/http://ask.fm/OmercanAkkalabak*+*+*Wed, 12 Sep 2012 02:30:34 GMT']

@@ -1,0 +1,2 @@
+[u'//wayback.archive-it.org/all/20150312083423/https://www.youtube.com/watch?v=L0-4wLEwymk*+*+*Thu, 12 Mar 2015 08:34:23 GMT', u'//wayback.archive-it.org/all/20150312083424/http://www.youtube.com/watch?v=L0-4wLEwymk*+*+*Thu, 12 Mar 2015 08:34:24 GMT', u'//wayback.archive-it.org/all/20150424113842/http://www.youtube.com/watch?v=L0-4wLEwymk*+*+*Fri, 24 Apr 2015 11:38:42 GMT']
+[u'http://web.archive.org/web/20150312083423/https://www.youtube.com/watch?v=L0-4wLEwymk*+*+*Thu, 12 Mar 2015 08:34:23 GMT']

@@ -1,0 +1,1248 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="d3.layout.cloud.js"></script>
+</head>
+<body>
+<script>
+
+  // embed Jason Davies' d3-cloud since it's not available in a CDN
+  // Word cloud layout by Jason Davies, http://www.jasondavies.com/word-cloud/
+// Algorithm due to Jonathan Feinberg, http://static.mrfeinberg.com/bv_ch03.pdf
+(function() {
+  function cloud() {
+    var size = [256, 256],
+        text = cloudText,
+        font = cloudFont,
+        fontSize = cloudFontSize,
+        fontStyle = cloudFontNormal,
+        fontWeight = cloudFontNormal,
+        rotate = cloudRotate,
+        padding = cloudPadding,
+        spiral = archimedeanSpiral,
+        words = [],
+        timeInterval = Infinity,
+        event = d3.dispatch("word", "end"),
+        timer = null,
+        cloud = {};
+
+    cloud.start = function() {
+      var board = zeroArray((size[0] >> 5) * size[1]),
+          bounds = null,
+          n = words.length,
+          i = -1,
+          tags = [],
+          data = words.map(function(d, i) {
+            d.text = text.call(this, d, i);
+            d.font = font.call(this, d, i);
+            d.style = fontStyle.call(this, d, i);
+            d.weight = fontWeight.call(this, d, i);
+            d.rotate = rotate.call(this, d, i);
+            d.size = ~~fontSize.call(this, d, i);
+            d.padding = padding.call(this, d, i);
+            return d;
+          }).sort(function(a, b) { return b.size - a.size; });
+
+      if (timer) clearInterval(timer);
+      timer = setInterval(step, 0);
+      step();
+
+      return cloud;
+
+      function step() {
+        var start = +new Date,
+            d;
+        while (+new Date - start < timeInterval && ++i < n && timer) {
+          d = data[i];
+          d.x = (size[0] * (Math.random() + .5)) >> 1;
+          d.y = (size[1] * (Math.random() + .5)) >> 1;
+          cloudSprite(d, data, i);
+          if (d.hasText && place(board, d, bounds)) {
+            tags.push(d);
+            event.word(d);
+            if (bounds) cloudBounds(bounds, d);
+            else bounds = [{x: d.x + d.x0, y: d.y + d.y0}, {x: d.x + d.x1, y: d.y + d.y1}];
+            // Temporary hack
+            d.x -= size[0] >> 1;
+            d.y -= size[1] >> 1;
+          }
+        }
+        if (i >= n) {
+          cloud.stop();
+          event.end(tags, bounds);
+        }
+      }
+    }
+
+    cloud.stop = function() {
+      if (timer) {
+        clearInterval(timer);
+        timer = null;
+      }
+      return cloud;
+    };
+
+    cloud.timeInterval = function(x) {
+      if (!arguments.length) return timeInterval;
+      timeInterval = x == null ? Infinity : x;
+      return cloud;
+    };
+
+    function place(board, tag, bounds) {
+      var perimeter = [{x: 0, y: 0}, {x: size[0], y: size[1]}],
+          startX = tag.x,
+          startY = tag.y,
+          maxDelta = Math.sqrt(size[0] * size[0] + size[1] * size[1]),
+          s = spiral(size),
+          dt = Math.random() < .5 ? 1 : -1,
+          t = -dt,
+          dxdy,
+          dx,
+          dy;
+
+      while (dxdy = s(t += dt)) {
+        dx = ~~dxdy[0];
+        dy = ~~dxdy[1];
+
+        if (Math.min(dx, dy) > maxDelta) break;
+
+        tag.x = startX + dx;
+        tag.y = startY + dy;
+
+        if (tag.x + tag.x0 < 0 || tag.y + tag.y0 < 0 ||
+            tag.x + tag.x1 > size[0] || tag.y + tag.y1 > size[1]) continue;
+        // TODO only check for collisions within current bounds.
+        if (!bounds || !cloudCollide(tag, board, size[0])) {
+          if (!bounds || collideRects(tag, bounds)) {
+            var sprite = tag.sprite,
+                w = tag.width >> 5,
+                sw = size[0] >> 5,
+                lx = tag.x - (w << 4),
+                sx = lx & 0x7f,
+                msx = 32 - sx,
+                h = tag.y1 - tag.y0,
+                x = (tag.y + tag.y0) * sw + (lx >> 5),
+                last;
+            for (var j = 0; j < h; j++) {
+              last = 0;
+              for (var i = 0; i <= w; i++) {
+                board[x + i] |= (last << msx) | (i < w ? (last = sprite[j * w + i]) >>> sx : 0);
+              }
+              x += sw;
+            }
+            delete tag.sprite;
+            return true;
+          }
+        }
+      }
+      return false;
+    }
+
+    cloud.words = function(x) {
+      if (!arguments.length) return words;
+      words = x;
+      return cloud;
+    };
+
+    cloud.size = function(x) {
+      if (!arguments.length) return size;
+      size = [+x[0], +x[1]];
+      return cloud;
+    };
+
+    cloud.font = function(x) {
+      if (!arguments.length) return font;
+      font = d3.functor(x);
+      return cloud;
+    };
+
+    cloud.fontStyle = function(x) {
+      if (!arguments.length) return fontStyle;
+      fontStyle = d3.functor(x);
+      return cloud;
+    };
+
+    cloud.fontWeight = function(x) {
+      if (!arguments.length) return fontWeight;
+      fontWeight = d3.functor(x);
+      return cloud;
+    };
+
+    cloud.rotate = function(x) {
+      if (!arguments.length) return rotate;
+      rotate = d3.functor(x);
+      return cloud;
+    };
+
+    cloud.text = function(x) {
+      if (!arguments.length) return text;
+      text = d3.functor(x);
+      return cloud;
+    };
+
+    cloud.spiral = function(x) {
+      if (!arguments.length) return spiral;
+      spiral = spirals[x + ""] || x;
+      return cloud;
+    };
+
+    cloud.fontSize = function(x) {
+      if (!arguments.length) return fontSize;
+      fontSize = d3.functor(x);
+      return cloud;
+    };
+
+    cloud.padding = function(x) {
+      if (!arguments.length) return padding;
+      padding = d3.functor(x);
+      return cloud;
+    };
+
+    return d3.rebind(cloud, event, "on");
+  }
+
+  function cloudText(d) {
+    return d.text;
+  }
+
+  function cloudFont() {
+    return "serif";
+  }
+
+  function cloudFontNormal() {
+    return "normal";
+  }
+
+  function cloudFontSize(d) {
+    return Math.sqrt(d.value);
+  }
+
+  function cloudRotate() {
+    return (~~(Math.random() * 6) - 3) * 30;
+  }
+
+  function cloudPadding() {
+    return 1;
+  }
+
+  // Fetches a monochrome sprite bitmap for the specified text.
+  // Load in batches for speed.
+  function cloudSprite(d, data, di) {
+    if (d.sprite) return;
+    c.clearRect(0, 0, (cw << 5) / ratio, ch / ratio);
+    var x = 0,
+        y = 0,
+        maxh = 0,
+        n = data.length;
+    --di;
+    while (++di < n) {
+      d = data[di];
+      c.save();
+      c.font = d.style + " " + d.weight + " " + ~~((d.size + 1) / ratio) + "px " + d.font;
+      var w = c.measureText(d.text + "m").width * ratio,
+          h = d.size << 1;
+      if (d.rotate) {
+        var sr = Math.sin(d.rotate * cloudRadians),
+            cr = Math.cos(d.rotate * cloudRadians),
+            wcr = w * cr,
+            wsr = w * sr,
+            hcr = h * cr,
+            hsr = h * sr;
+        w = (Math.max(Math.abs(wcr + hsr), Math.abs(wcr - hsr)) + 0x1f) >> 5 << 5;
+        h = ~~Math.max(Math.abs(wsr + hcr), Math.abs(wsr - hcr));
+      } else {
+        w = (w + 0x1f) >> 5 << 5;
+      }
+      if (h > maxh) maxh = h;
+      if (x + w >= (cw << 5)) {
+        x = 0;
+        y += maxh;
+        maxh = 0;
+      }
+      if (y + h >= ch) break;
+      c.translate((x + (w >> 1)) / ratio, (y + (h >> 1)) / ratio);
+      if (d.rotate) c.rotate(d.rotate * cloudRadians);
+      c.fillText(d.text, 0, 0);
+      if (d.padding) c.lineWidth = 2 * d.padding, c.strokeText(d.text, 0, 0);
+      c.restore();
+      d.width = w;
+      d.height = h;
+      d.xoff = x;
+      d.yoff = y;
+      d.x1 = w >> 1;
+      d.y1 = h >> 1;
+      d.x0 = -d.x1;
+      d.y0 = -d.y1;
+      d.hasText = true;
+      x += w;
+    }
+    var pixels = c.getImageData(0, 0, (cw << 5) / ratio, ch / ratio).data,
+        sprite = [];
+    while (--di >= 0) {
+      d = data[di];
+      if (!d.hasText) continue;
+      var w = d.width,
+          w32 = w >> 5,
+          h = d.y1 - d.y0;
+      // Zero the buffer
+      for (var i = 0; i < h * w32; i++) sprite[i] = 0;
+      x = d.xoff;
+      if (x == null) return;
+      y = d.yoff;
+      var seen = 0,
+          seenRow = -1;
+      for (var j = 0; j < h; j++) {
+        for (var i = 0; i < w; i++) {
+          var k = w32 * j + (i >> 5),
+              m = pixels[((y + j) * (cw << 5) + (x + i)) << 2] ? 1 << (31 - (i % 32)) : 0;
+          sprite[k] |= m;
+          seen |= m;
+        }
+        if (seen) seenRow = j;
+        else {
+          d.y0++;
+          h--;
+          j--;
+          y++;
+        }
+      }
+      d.y1 = d.y0 + seenRow;
+      d.sprite = sprite.slice(0, (d.y1 - d.y0) * w32);
+    }
+  }
+
+  // Use mask-based collision detection.
+  function cloudCollide(tag, board, sw) {
+    sw >>= 5;
+    var sprite = tag.sprite,
+        w = tag.width >> 5,
+        lx = tag.x - (w << 4),
+        sx = lx & 0x7f,
+        msx = 32 - sx,
+        h = tag.y1 - tag.y0,
+        x = (tag.y + tag.y0) * sw + (lx >> 5),
+        last;
+    for (var j = 0; j < h; j++) {
+      last = 0;
+      for (var i = 0; i <= w; i++) {
+        if (((last << msx) | (i < w ? (last = sprite[j * w + i]) >>> sx : 0))
+            & board[x + i]) return true;
+      }
+      x += sw;
+    }
+    return false;
+  }
+
+  function cloudBounds(bounds, d) {
+    var b0 = bounds[0],
+        b1 = bounds[1];
+    if (d.x + d.x0 < b0.x) b0.x = d.x + d.x0;
+    if (d.y + d.y0 < b0.y) b0.y = d.y + d.y0;
+    if (d.x + d.x1 > b1.x) b1.x = d.x + d.x1;
+    if (d.y + d.y1 > b1.y) b1.y = d.y + d.y1;
+  }
+
+  function collideRects(a, b) {
+    return a.x + a.x1 > b[0].x && a.x + a.x0 < b[1].x && a.y + a.y1 > b[0].y && a.y + a.y0 < b[1].y;
+  }
+
+  function archimedeanSpiral(size) {
+    var e = size[0] / size[1];
+    return function(t) {
+      return [e * (t *= .1) * Math.cos(t), t * Math.sin(t)];
+    };
+  }
+
+  function rectangularSpiral(size) {
+    var dy = 4,
+        dx = dy * size[0] / size[1],
+        x = 0,
+        y = 0;
+    return function(t) {
+      var sign = t < 0 ? -1 : 1;
+      // See triangular numbers: T_n = n * (n + 1) / 2.
+      switch ((Math.sqrt(1 + 4 * sign * t) - sign) & 3) {
+        case 0:  x += dx; break;
+        case 1:  y += dy; break;
+        case 2:  x -= dx; break;
+        default: y -= dy; break;
+      }
+      return [x, y];
+    };
+  }
+
+  // TODO reuse arrays?
+  function zeroArray(n) {
+    var a = [],
+        i = -1;
+    while (++i < n) a[i] = 0;
+    return a;
+  }
+
+  var cloudRadians = Math.PI / 180,
+      cw = 1 << 11 >> 5,
+      ch = 1 << 11,
+      canvas,
+      ratio = 1;
+
+  if (typeof document !== "undefined") {
+    canvas = document.createElement("canvas");
+    canvas.width = 1;
+    canvas.height = 1;
+    ratio = Math.sqrt(canvas.getContext("2d").getImageData(0, 0, 1, 1).data.length >> 2);
+    canvas.width = (cw << 5) / ratio;
+    canvas.height = ch / ratio;
+  } else {
+    // Attempt to use node-canvas.
+    canvas = new Canvas(cw << 5, ch);
+  }
+
+  var c = canvas.getContext("2d"),
+      spirals = {
+        archimedean: archimedeanSpiral,
+        rectangular: rectangularSpiral
+      };
+  c.fillStyle = c.strokeStyle = "red";
+  c.textAlign = "center";
+
+  if (typeof module === "object" && module.exports) module.exports = cloud;
+  else (d3.layout || (d3.layout = {})).cloud = cloud;
+})();
+
+
+  var fill = d3.scale.category20();
+  var words = [
+  {
+    "text": "earth", 
+    "size": 116
+  }, 
+  {
+    "text": "day", 
+    "size": 107
+  }, 
+  {
+    "text": "usa", 
+    "size": 71
+  }, 
+  {
+    "text": "celebrate", 
+    "size": 56
+  }, 
+  {
+    "text": "today", 
+    "size": 53
+  }, 
+  {
+    "text": "planet", 
+    "size": 51
+  }, 
+  {
+    "text": "california", 
+    "size": 43
+  }, 
+  {
+    "text": "riverside", 
+    "size": 43
+  }, 
+  {
+    "text": "reasons", 
+    "size": 41
+  }, 
+  {
+    "text": "water", 
+    "size": 41
+  }, 
+  {
+    "text": "optimistic", 
+    "size": 41
+  }, 
+  {
+    "text": "know", 
+    "size": 39
+  }, 
+  {
+    "text": "here", 
+    "size": 39
+  }, 
+  {
+    "text": "depressing", 
+    "size": 37
+  }, 
+  {
+    "text": "happy", 
+    "size": 37
+  }, 
+  {
+    "text": "win", 
+    "size": 32
+  }, 
+  {
+    "text": "remember", 
+    "size": 31
+  }, 
+  {
+    "text": "enter", 
+    "size": 31
+  }, 
+  {
+    "text": "full", 
+    "size": 31
+  }, 
+  {
+    "text": "follow", 
+    "size": 30
+  }, 
+  {
+    "text": "upcycled", 
+    "size": 30
+  }, 
+  {
+    "text": "vita", 
+    "size": 30
+  }, 
+  {
+    "text": "bag", 
+    "size": 30
+  }, 
+  {
+    "text": "coconut", 
+    "size": 30
+  }, 
+  {
+    "text": "coco", 
+    "size": 30
+  }, 
+  {
+    "text": "tetra", 
+    "size": 30
+  }, 
+  {
+    "text": "oil!", 
+    "size": 30
+  }, 
+  {
+    "text": "initiatives", 
+    "size": 27
+  }, 
+  {
+    "text": "it's", 
+    "size": 27
+  }, 
+  {
+    "text": "start", 
+    "size": 24
+  }, 
+  {
+    "text": "via", 
+    "size": 24
+  }, 
+  {
+    "text": "climate", 
+    "size": 24
+  }, 
+  {
+    "text": "conservation", 
+    "size": 24
+  }, 
+  {
+    "text": "saving", 
+    "size": 24
+  }, 
+  {
+    "text": "recycling", 
+    "size": 23
+  }, 
+  {
+    "text": "personal", 
+    "size": 23
+  }, 
+  {
+    "text": "designed", 
+    "size": 23
+  }, 
+  {
+    "text": "shift", 
+    "size": 23
+  }, 
+  {
+    "text": "worrying", 
+    "size": 23
+  }, 
+  {
+    "text": "blame", 
+    "size": 23
+  }, 
+  {
+    "text": "corporations\u2026", 
+    "size": 23
+  }, 
+  {
+    "text": "one", 
+    "size": 22
+  }, 
+  {
+    "text": "help", 
+    "size": 22
+  }, 
+  {
+    "text": "honor", 
+    "size": 22
+  }, 
+  {
+    "text": "change", 
+    "size": 22
+  }, 
+  {
+    "text": "before", 
+    "size": 22
+  }, 
+  {
+    "text": "earthday", 
+    "size": 22
+  }, 
+  {
+    "text": "gbr", 
+    "size": 21
+  }, 
+  {
+    "text": "kids", 
+    "size": 21
+  }, 
+  {
+    "text": "president", 
+    "size": 21
+  }, 
+  {
+    "text": "update", 
+    "size": 21
+  }, 
+  {
+    "text": "htt\u2026", 
+    "size": 21
+  }, 
+  {
+    "text": "time", 
+    "size": 21
+  }, 
+  {
+    "text": "take", 
+    "size": 21
+  }, 
+  {
+    "text": "late", 
+    "size": 21
+  }, 
+  {
+    "text": "trees", 
+    "size": 21
+  }, 
+  {
+    "text": "watch", 
+    "size": 21
+  }, 
+  {
+    "text": "discount", 
+    "size": 20
+  }, 
+  {
+    "text": "save", 
+    "size": 20
+  }, 
+  {
+    "text": "turtle", 
+    "size": 20
+  }, 
+  {
+    "text": "piece", 
+    "size": 20
+  }, 
+  {
+    "text": "order", 
+    "size": 20
+  }, 
+  {
+    "text": "photobomb", 
+    "size": 20
+  }, 
+  {
+    "text": "obama:", 
+    "size": 20
+  }, 
+  {
+    "text": "let's", 
+    "size": 20
+  }, 
+  {
+    "text": "think", 
+    "size": 20
+  }, 
+  {
+    "text": "agree", 
+    "size": 20
+  }, 
+  {
+    "text": "more", 
+    "size": 20
+  }, 
+  {
+    "text": "imagine", 
+    "size": 20
+  }, 
+  {
+    "text": "obama", 
+    "size": 20
+  }, 
+  {
+    "text": "sea", 
+    "size": 20
+  }, 
+  {
+    "text": "whole", 
+    "size": 20
+  }, 
+  {
+    "text": "great", 
+    "size": 20
+  }, 
+  {
+    "text": "performs", 
+    "size": 20
+  }, 
+  {
+    "text": "sinister", 
+    "size": 20
+  }, 
+  {
+    "text": "owe", 
+    "size": 20
+  }, 
+  {
+    "text": "today!", 
+    "size": 19
+  }, 
+  {
+    "text": "corporate", 
+    "size": 19
+  }, 
+  {
+    "text": "people", 
+    "size": 19
+  }, 
+  {
+    "text": "drinks", 
+    "size": 19
+  }, 
+  {
+    "text": "art", 
+    "size": 19
+  }, 
+  {
+    "text": "expensive", 
+    "size": 19
+  }, 
+  {
+    "text": "giving", 
+    "size": 19
+  }, 
+  {
+    "text": "ends", 
+    "size": 19
+  }, 
+  {
+    "text": "make", 
+    "size": 19
+  }, 
+  {
+    "text": "feel-good", 
+    "size": 19
+  }, 
+  {
+    "text": "bullshit", 
+    "size": 19
+  }, 
+  {
+    "text": "i'll", 
+    "size": 19
+  }, 
+  {
+    "text": "world", 
+    "size": 19
+  }, 
+  {
+    "text": "liberals", 
+    "size": 19
+  }, 
+  {
+    "text": "greenwashing", 
+    "size": 19
+  }, 
+  {
+    "text": "old", 
+    "size": 19
+  }, 
+  {
+    "text": "support", 
+    "size": 19
+  }, 
+  {
+    "text": "amazing", 
+    "size": 19
+  }, 
+  {
+    "text": "won\u2019t", 
+    "size": 19
+  }, 
+  {
+    "text": "cure", 
+    "size": 19
+  }, 
+  {
+    "text": "makes", 
+    "size": 19
+  }, 
+  {
+    "text": "out", 
+    "size": 19
+  }, 
+  {
+    "text": "gop's", 
+    "size": 19
+  }, 
+  {
+    "text": "record", 
+    "size": 19
+  }, 
+  {
+    "text": "street", 
+    "size": 18
+  }, 
+  {
+    "text": "want", 
+    "size": 18
+  }, 
+  {
+    "text": "celebrating", 
+    "size": 18
+  }, 
+  {
+    "text": "days", 
+    "size": 18
+  }, 
+  {
+    "text": "way", 
+    "size": 18
+  }, 
+  {
+    "text": "those", 
+    "size": 18
+  }, 
+  {
+    "text": "video", 
+    "size": 18
+  }, 
+  {
+    "text": "baby", 
+    "size": 18
+  }, 
+  {
+    "text": "future", 
+    "size": 18
+  }, 
+  {
+    "text": "news", 
+    "size": 18
+  }, 
+  {
+    "text": "join", 
+    "size": 18
+  }, 
+  {
+    "text": "love", 
+    "size": 18
+  }, 
+  {
+    "text": "care", 
+    "size": 18
+  }, 
+  {
+    "text": "england", 
+    "size": 18
+  }, 
+  {
+    "text": "mellberr:", 
+    "size": 18
+  }, 
+  {
+    "text": "swindon", 
+    "size": 18
+  }, 
+  {
+    "text": "memories,", 
+    "size": 18
+  }, 
+  {
+    "text": "use", 
+    "size": 18
+  }, 
+  {
+    "text": "need", 
+    "size": 18
+  }, 
+  {
+    "text": "hangover:", 
+    "size": 18
+  }, 
+  {
+    "text": "sunflower!!", 
+    "size": 18
+  }, 
+  {
+    "text": "grow", 
+    "size": 18
+  }, 
+  {
+    "text": "now", 
+    "size": 18
+  }, 
+  {
+    "text": "everyday", 
+    "size": 18
+  }, 
+  {
+    "text": "kill", 
+    "size": 18
+  }, 
+  {
+    "text": "believe", 
+    "size": 18
+  }, 
+  {
+    "text": "code", 
+    "size": 18
+  }, 
+  {
+    "text": "chance", 
+    "size": 18
+  }, 
+  {
+    "text": "new", 
+    "size": 17
+  }, 
+  {
+    "text": "wins", 
+    "size": 17
+  }, 
+  {
+    "text": "better", 
+    "size": 17
+  }, 
+  {
+    "text": "thanks", 
+    "size": 17
+  }, 
+  {
+    "text": "guy", 
+    "size": 17
+  }, 
+  {
+    "text": "learn", 
+    "size": 17
+  }, 
+  {
+    "text": "space", 
+    "size": 17
+  }, 
+  {
+    "text": "plastic", 
+    "size": 17
+  }, 
+  {
+    "text": "bags", 
+    "size": 17
+  }, 
+  {
+    "text": "being", 
+    "size": 17
+  }, 
+  {
+    "text": "winners!!!", 
+    "size": 17
+  }, 
+  {
+    "text": "look", 
+    "size": 17
+  }, 
+  {
+    "text": "we're", 
+    "size": 17
+  }, 
+  {
+    "text": "row!", 
+    "size": 17
+  }, 
+  {
+    "text": "tuent\n#earthday", 
+    "size": 17
+  }, 
+  {
+    "text": "les", 
+    "size": 17
+  }, 
+  {
+    "text": "plastique", 
+    "size": 17
+  }, 
+  {
+    "text": "sacs", 
+    "size": 17
+  }, 
+  {
+    "text": "home", 
+    "size": 17
+  }, 
+  {
+    "text": "flash:", 
+    "size": 17
+  }, 
+  {
+    "text": "tree", 
+    "size": 17
+  }, 
+  {
+    "text": "miles", 
+    "size": 17
+  }, 
+  {
+    "text": "trash", 
+    "size": 17
+  }, 
+  {
+    "text": "action", 
+    "size": 17
+  }, 
+  {
+    "text": "don't", 
+    "size": 17
+  }, 
+  {
+    "text": "good", 
+    "size": 17
+  }, 
+  {
+    "text": "few", 
+    "size": 17
+  }, 
+  {
+    "text": "environmental", 
+    "size": 17
+  }, 
+  {
+    "text": "april", 
+    "size": 17
+  }, 
+  {
+    "text": "recycle", 
+    "size": 17
+  }, 
+  {
+    "text": "place", 
+    "size": 17
+  }, 
+  {
+    "text": "en\u2026", 
+    "size": 17
+  }, 
+  {
+    "text": "untuk", 
+    "size": 17
+  }, 
+  {
+    "text": "day,", 
+    "size": 17
+  }, 
+  {
+    "text": "day!", 
+    "size": 17
+  }, 
+  {
+    "text": "free", 
+    "size": 17
+  }, 
+  {
+    "text": "too!", 
+    "size": 17
+  }, 
+  {
+    "text": "camp", 
+    "size": 17
+  }, 
+  {
+    "text": "insects", 
+    "size": 17
+  }, 
+  {
+    "text": "life", 
+    "size": 17
+  }, 
+  {
+    "text": "earth's", 
+    "size": 17
+  }, 
+  {
+    "text": "isis", 
+    "size": 17
+  }, 
+  {
+    "text": "ht\u2026", 
+    "size": 17
+  }, 
+  {
+    "text": "still", 
+    "size": 17
+  }, 
+  {
+    "text": "views", 
+    "size": 17
+  }, 
+  {
+    "text": "obama's", 
+    "size": 17
+  }, 
+  {
+    "text": "training", 
+    "size": 17
+  }, 
+  {
+    "text": "outside", 
+    "size": 17
+  }, 
+  {
+    "text": "mean", 
+    "size": 17
+  }, 
+  {
+    "text": "founder", 
+    "size": 17
+  }, 
+  {
+    "text": "selfies", 
+    "size": 17
+  }, 
+  {
+    "text": "beautiful", 
+    "size": 17
+  }, 
+  {
+    "text": "event", 
+    "size": 17
+  }, 
+  {
+    "text": "real", 
+    "size": 17
+  }, 
+  {
+    "text": "yesterday", 
+    "size": 17
+  }, 
+  {
+    "text": "border", 
+    "size": 17
+  }, 
+  {
+    "text": "it\u2019s", 
+    "size": 17
+  }, 
+  {
+    "text": "generations:", 
+    "size": 17
+  }, 
+  {
+    "text": "protect", 
+    "size": 17
+  }, 
+  {
+    "text": "biggest", 
+    "size": 17
+  }, 
+  {
+    "text": "items", 
+    "size": 16
+  }, 
+  {
+    "text": "green", 
+    "size": 16
+  }, 
+  {
+    "text": "over", 
+    "size": 16
+  }, 
+  {
+    "text": "ira", 
+    "size": 16
+  }, 
+  {
+    "text": "sad", 
+    "size": 16
+  }, 
+  {
+    "text": "spread", 
+    "size": 16
+  }, 
+  {
+    "text": "down", 
+    "size": 16
+  }, 
+  {
+    "text": "fight", 
+    "size": 16
+  }, 
+  {
+    "text": "environment", 
+    "size": 16
+  }, 
+  {
+    "text": "years", 
+    "size": 16
+  }, 
+  {
+    "text": "message", 
+    "size": 16
+  }, 
+  {
+    "text": "tomorrow", 
+    "size": 16
+  }
+]
+
+  d3.layout.cloud().size([800, 800])
+      .words(words)
+      .rotate(function() { return ~~(Math.random() * 2) * 90; })
+      .font("Impact")
+      .fontSize(function(d) { return d.size; })
+      .on("end", draw)
+      .start();
+
+  function draw(words) {
+    d3.select("body").append("svg")
+        .attr("width", 1000)
+        .attr("height", 1000)
+      .append("g")
+        .attr("transform", "translate(400,400)")
+      .selectAll("text")
+        .data(words)
+      .enter().append("text")
+        .style("font-size", function(d) { return d.size + "px"; })
+        .style("font-family", "Impact")
+        .style("fill", function(d, i) { return fill(i); })
+        .attr("text-anchor", "middle")
+        .attr("transform", function(d) {
+          return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+        })
+        .text(function(d) { return d.text; });
+  }
+</script>
+</body>
+</html>
+

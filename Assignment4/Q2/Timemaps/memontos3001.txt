@@ -1,0 +1,2 @@
+[u'//wayback.archive-it.org/all/20150421055842/https://www.youtube.com/watch?v=dO80dgra5C0&app=desktop*+*+*Tue, 21 Apr 2015 05:58:42 GMT']
+[u'http://web.archive.org/web/20150414064646/https://www.youtube.com/watch?v=dO80dgra5C0&app=desktop*+*+*Tue, 14 Apr 2015 06:46:46 GMT', u'http://web.archive.org/web/20150421091138/https://www.youtube.com/watch?v=dO80dgra5C0&app=desktop*+*+*Tue, 21 Apr 2015 09:11:38 GMT']

@@ -1,0 +1,2 @@
+[u'http://web.archive.org/web/20150112070201/http://pamelageller.com/2015/01/muslims-torch-940-cars-across-france-on-new-years-eve.html/*+*+*Mon, 12 Jan 2015 07:02:01 GMT', u'http://web.archive.org/web/20150412160702/http://pamelageller.com/2015/01/muslims-torch-940-cars-across-france-on-new-years-eve.html/*+*+*Sun, 12 Apr 2015 16:07:02 GMT']
+[u'http://archive.is/20150103065008/http://pamelageller.com/2015/01/muslims-torch-940-cars-across-france-on-new-years-eve.html/*+*+*Sat, 3 Jan 2015 06:50:08 GMT']

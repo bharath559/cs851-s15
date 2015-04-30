@@ -1,0 +1,2 @@
+[u'http://web.archive.org/web/20150316142654/http://www.bloomberg.com/news/articles/2015-02-09/citi-oil-could-plunge-to-20-and-this-might-be-the-end-of-opec-*+*+*Mon, 16 Mar 2015 14:26:54 GMT', u'http://web.archive.org/web/20150318062512/http://www.bloomberg.com/news/articles/2015-02-09/citi-oil-could-plunge-to-20-and-this-might-be-the-end-of-opec-*+*+*Wed, 18 Mar 2015 06:25:12 GMT']
+[u'http://archive.is/20150210183208/http://www.bloomberg.com/news/articles/2015-02-09/citi-oil-could-plunge-to-20-and-this-might-be-the-end-of-opec-*+*+*Tue, 10 Feb 2015 18:32:08 GMT']

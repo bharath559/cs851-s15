@@ -1,0 +1,2 @@
+[u'//wayback.archive-it.org/all/20150209203808/http://ameblo.jp/aki-takajo-we/entry-11987912623.html*+*+*Mon, 09 Feb 2015 20:38:08 GMT']
+[u'http://web.archive.org/web/20150209203808/http://ameblo.jp/aki-takajo-we/entry-11987912623.html*+*+*Mon, 09 Feb 2015 20:38:08 GMT', u'http://web.archive.org/web/20150220002100/http://ameblo.jp/aki-takajo-we/entry-11987912623.html*+*+*Fri, 20 Feb 2015 00:21:00 GMT']

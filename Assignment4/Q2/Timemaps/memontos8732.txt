@@ -1,0 +1,2 @@
+[u'http://web.archive.org/web/20150209161202/http://blog.livedoor.jp/wisdomkeeper/archives/51951105.html*+*+*Mon, 09 Feb 2015 16:12:02 GMT', u'http://web.archive.org/web/20150209162207/http://blog.livedoor.jp/wisdomkeeper/archives/51951105.html*+*+*Mon, 09 Feb 2015 16:22:07 GMT']
+[u'http://archive.is/20150209161122/http://blog.livedoor.jp/wisdomkeeper/archives/51951105.html*+*+*Mon, 9 Feb 2015 16:11:22 GMT', u'http://archive.is/20150209162206/http://blog.livedoor.jp/wisdomkeeper/archives/51951105.html*+*+*Mon, 9 Feb 2015 16:22:06 GMT']

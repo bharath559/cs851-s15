@@ -1,0 +1,2 @@
+[u'//wayback.archive-it.org/all/20150215052058/http://time.com/3701067/grammys-taylor-swift-elsa-frozen/*+*+*Sun, 15 Feb 2015 05:20:58 GMT']
+[u'http://web.archive.org/web/20150209165601/http://time.com/3701067/grammys-taylor-swift-elsa-frozen/*+*+*Mon, 09 Feb 2015 16:56:01 GMT', u'http://web.archive.org/web/20150215052058/http://time.com/3701067/grammys-taylor-swift-elsa-frozen/*+*+*Sun, 15 Feb 2015 05:20:58 GMT', u'http://web.archive.org/web/20150407093441/http://time.com/3701067/grammys-taylor-swift-elsa-frozen*+*+*Tue, 07 Apr 2015 09:34:41 GMT']

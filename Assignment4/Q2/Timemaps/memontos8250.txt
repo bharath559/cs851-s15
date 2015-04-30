@@ -1,0 +1,2 @@
+[u'http://web.archive.org/web/20150129120529/http://japanese.engadget.com/2015/01/29/ios-android-outlook-exchange-gmail-icloud/*+*+*Thu, 29 Jan 2015 12:05:29 GMT', u'http://web.archive.org/web/20150331053950/http://japanese.engadget.com/2015/01/29/ios-android-outlook-exchange-gmail-icloud/*+*+*Tue, 31 Mar 2015 05:39:50 GMT']
+[u'http://archive.is/20150129120517/http://japanese.engadget.com/2015/01/29/ios-android-outlook-exchange-gmail-icloud/*+*+*Thu, 29 Jan 2015 12:05:17 GMT']
