@@ -1,0 +1,100 @@
+
+
+
+\section{Question 1}
+\label{part1}
+
+\begin{itemize}
+\item Using the pages from A3 that boilerpipe successfully processed, download those representations again & reprocess them with boilerpipe.:
+\item Document the time difference (e.g., Time(A4) – Time(A3)).
+\item Compute the Jaccard Distance x for each pair of pages (i.e., P(A3) & P(A4) for:
+ \begin{itemize}
+\item Unique terms (i.e., unigrams)
+\item Bigrams
+\item Trigrams
+\end{itemize}
+\item See: http://en.wikipedia.org/wiki/Jaccard_index 
+\item For each of the 3 cases (i.e., 1-, 2-, 3-grams) build a Cumulative Distribution Function that shows the % change on the x-axis & the % of the population on the x-axis
+\item See: http://en.wikipedia.org/wiki/Cumulative_distribution_function
+\item Give 3-4 examples illustrating the range of change that you have measured.
+\end{itemize}
+\subsection{Solution}
+
+\begin{itemize}
+	\item Installed jusText\cite{jusText} to remove templates from HTML files of 10000 URIs.
+	\item jusText is a tool for removing boilerplate content such as navigation links, headers and footers from HTML pages.
+\end{itemize}
+
+ \subsection{Code Listing}
+Below is the python code that is used to remove HTML templates from all HTML pages of 10000 URIs.
+
+\lstinputlisting[language=Python,breaklines = true,frame=single,caption={Python program to remove HTML templates}, label=lst:q1-1,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{getText.py}
+
+Here is the python code that is used to count total words, unique words and frequency. Basic parsing of the text files
+is referred from wordcount python library\cite{Wordcount}.
+
+\lstinputlisting[language=Python,breaklines = true,frame=single,caption={Python program for finding unique words and total words}, label=lst:q1-1,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{wordcount.py}
+\newpage 
+\subsection{Comparing total words, unique words and byte sizes}
+
+
+\begin{table}
+\caption{Original and After jusText}
+\begin{center}
+  \begin{tabular}{ c | c | c }
+    \hline
+     & Before jusText & After jusText \\ \hline
+Total Bytes & 813,340,810   &  650,600  \\ \hline
+Total Words & 305,559 and & 105,559 \\ \hline
+Unique Words & 40,011 and & 20,611 \\ 
+\label{table:comparision}
+ \end{tabular}
+ \end{center}
+
+\end{table}
+
+\begin{itemize}
+\item Comparison of total words, unique words and total bytes before use of jusText is shown in table \ref{table:comparision}.
+\item Out of my 10000 URIs, 6200 were unique URIs. In this list of URIs 4643 was jusText successful.
+\item Remaining 1566 were skipped due to errors like `404', could not resolve host, etc. as shown below.
+
+\begin{verbatim}
+	$ curl -I http://waniko.info/u70xbs/
+	curl: (6) Could not resolve host: waniko.info
+	
+	$ curl -I http://truffle.upper.jp/44p3z
+	HTTP/1.1 302 Found
+	Date: Sat, 04 Apr 2015 04:23:10 GMT
+	Server: Apache/2.0.58 (Unix) mod_bwshare/0.2.0 PHP/5.3.8
+	Location: http://err.lolipop.jp/404.html
+\end{verbatim}
+
+\item Few of them are non-HTML and they were skipped due to errors as shown below.
+\begin{verbatim}
+8 URIs pointing to Images of Instagram
+3 URIS from facebook site
+2 URIs which are pointing to sites with no content.
+\end{verbatim}
+
+\item Examples of URIs for which jusText was successful are listed below. Pages which are properly structured with HTML 5 tags like section, caption, footer, header are successful.
+
+\begin{itemize}
+\item http://appleinsider.com/articles/15/02/09/rumor-apple-to-again-stay-out-of-megapixel-race
+\item http://www.aztecanoticias.com.mx/notas/finanzas/212592/bolsas-de-europa-en
+\end{itemize}
+\end{itemize}
+\includepdf[pages={3,4}]{jusText.pdf}
+
+\begin{itemize}
+\item Classes of pages for which jusText was not successful are given below.
+
+\begin{itemize}
+\item http://news.uvs.jp/1D4
+\item http://gharedly.com/
+\end{itemize}
+
+
+\item Pages which are cluttered with HTML elements and have not followed guidelines for HTML page design are not successful.
+\end{itemize}
+\newpage
+\includepdf[pages={1,2}]{jusText.pdf}
