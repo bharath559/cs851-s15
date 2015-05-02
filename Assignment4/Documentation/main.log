@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2014.8.20)  2 MAY 2015 03:58
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2014.8.20)  2 MAY 2015 04:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -526,10 +526,10 @@ Overfull \hbox (43.23846pt too wide) in paragraph at lines 169--171
 [][] 
  []
 
-) <mementocounts.png, id=397, 481.8pt x 481.8pt>
-File: mementocounts.png Graphic file (type png)
- <use mementocounts.png>
-[10 <./mementocounts.png (PNG copy)>])
+) <memento_counts.png, id=397, 481.8pt x 481.8pt>
+File: memento_counts.png Graphic file (type png)
+ <use memento_counts.png>
+[10 <./memento_counts.png (PNG copy)>])
 \openout2 = `part3.aux'.
 
  (./part3.tex
@@ -673,13 +673,29 @@ Overfull \hbox (59.70709pt too wide) in paragraph at lines 92--93
 <wordcloudday5.jpg, id=562, 484.81125pt x 530.73282pt>
 File: wordcloudday5.jpg Graphic file (type jpg)
  <use wordcloudday5.jpg>
-[24
+<geo1.JPG, id=563, 709.90219pt x 511.15968pt>
+File: geo1.JPG Graphic file (type jpg)
+ <use geo1.JPG>
+<geo2.jpg, id=564, 707.64375pt x 480.29437pt>
+File: geo2.jpg Graphic file (type jpg)
+ <use geo2.jpg>
+<geo3.JPG, id=565, 755.82375pt x 515.67656pt>
+File: geo3.JPG Graphic file (type jpg)
+ <use geo3.JPG>
+<geo4.jpg, id=566, 752.0597pt x 523.20468pt>
+File: geo4.jpg Graphic file (type jpg)
+ <use geo4.jpg>
+<geo5.JPG, id=567, 719.68875pt x 453.19313pt>
+File: geo5.JPG Graphic file (type jpg)
+ <use geo5.JPG> [24
 
 
-]) [25 <./Day1Wall.JPG>] [26 <./Day2Wall.JPG>] [27 <./Day3Wall.JPG>]
-[28 <./Day4Wall.JPG>] [29 <./Day5Wall.JPG>] [30 <./wordcloudday1.JPG>] [31 <./w
-ordcloudday2.JPG>] [32 <./wordcloudday3.JPG>] [33 <./wordcloudday4.JPG>]
-[34 <./wordcloudday5.jpg>] (./main.bbl
+]) [25 <./Day1Wall.JPG>] [26 <./Day2Wall.JPG>] [27 <./Day3Wall.JPG>] [28 <./Day
+4Wall.JPG>]
+[29 <./Day5Wall.JPG>] [30 <./wordcloudday1.JPG>] [31 <./wordcloudday2.JPG>]
+[32 <./wordcloudday3.JPG>] [33 <./wordcloudday4.JPG>] [34 <./wordcloudday5.jpg>
+] [35 <./geo1.JPG> <./geo2.jpg>] [36 <./geo3.JPG>] [37 <./geo4.jpg> <./geo5.JPG
+>] (./main.bbl
 Overfull \hbox (2.67854pt too wide) in paragraph at lines 20--24
 []\OT1/cmr/m/n/10 Wordcount.  https://github.com/mlafeldt/google-python-class/b
 lob/master/basic/solution/wordcount.py.
@@ -687,7 +703,7 @@ lob/master/basic/solution/wordcount.py.
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
- [35
+ [38
 
 
 ]
@@ -702,10 +718,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8160 strings out of 493747
- 121951 string characters out of 3143546
+ 8193 strings out of 493747
+ 122327 string characters out of 3143546
  622864 words of memory out of 3000000
- 10861 multiletter control sequences out of 15000+200000
+ 10881 multiletter control sequences out of 15000+200000
  9330 words of font info for 33 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  35i,7n,45p,457b,1810s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -722,10 +738,10 @@ xlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
 live/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
 ve/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive
 /2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (36 pages, 2898268 bytes).
+Output written on main.pdf (39 pages, 3220814 bytes).
 PDF statistics:
- 750 PDF objects out of 1000 (max. 8388607)
- 634 compressed objects within 7 object streams
- 377 named destinations out of 1000 (max. 500000)
- 251 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 777 PDF objects out of 1000 (max. 8388607)
+ 653 compressed objects within 7 object streams
+ 385 named destinations out of 1000 (max. 500000)
+ 276 words of extra memory for PDF output out of 10000 (max. 10000000)
 
