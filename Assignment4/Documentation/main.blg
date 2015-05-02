@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2010)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: part1.aux
+A level-1 auxiliary file: part2.aux
+A level-1 auxiliary file: part3.aux
+A level-1 auxiliary file: part4.aux
+The style file: plain.bst
+Database file #1: assignment4.bib
+Warning--to sort, need author or key in jusText
+Warning--to sort, need author or key in Wordcount
+Warning--to sort, need author or key in Zipf
+You've used 3 entries,
+            2118 wiz_defined-function locations,
+            513 strings with 4275 characters,
+and the built_in function-call counts, 506 in all, are:
+= -- 47
+> -- 3
+< -- 0
++ -- 3
+- -- 0
+* -- 17
+:= -- 62
+add.period$ -- 7
+call.type$ -- 3
+change.case$ -- 9
+chr.to.int$ -- 0
+cite$ -- 6
+duplicate$ -- 21
+empty$ -- 70
+format.name$ -- 0
+if$ -- 123
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 0
+newline$ -- 16
+num.names$ -- 0
+pop$ -- 26
+preamble$ -- 1
+purify$ -- 6
+quote$ -- 0
+skip$ -- 21
+stack$ -- 0
+substring$ -- 15
+swap$ -- 3
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 12
+warning$ -- 3
+while$ -- 0
+width$ -- 4
+write$ -- 25
+(There were 3 warnings)
