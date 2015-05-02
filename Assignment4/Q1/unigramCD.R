@@ -2,7 +2,7 @@
 library(RColorBrewer)
 data <- read.table("TrigramJackardDistance.txt")
 finalData = rep(data[,1])
-title <- "CDF of Change in Unigrams"
+title <- "CDF of Change in Trigrams"
 xlab <- "Jaccard Distance"
 ylab <- "Probability"
 png("Trigramq1.png")
