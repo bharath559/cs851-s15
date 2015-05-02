@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2014.8.20)  1 MAY 2015 23:58
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2014.8.20)  2 MAY 2015 03:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -348,7 +348,15 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip48
 )
-(./main.aux (./part1.aux) (./part2.aux) (./part3.aux
+(./main.aux (./part1.aux
+
+LaTeX Warning: Label `lst:q1-1' multiply defined.
+
+) (./part2.aux
+
+LaTeX Warning: Label `lst:q1-1' multiply defined.
+
+) (./part3.aux
 
 LaTeX Warning: Label `part1' multiply defined.
 
@@ -462,15 +470,66 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-) [2
 
-]
+(/usr/local/texlive/2010/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(./getNgrams.py
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 10.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 35.
+ (/usr/local/texlive/2010/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <8> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 35.
+
+[2
+
+]) [3] (./unigramCD.R) <Unigramq1.png, id=170, 481.8pt x 481.8pt>
+File: Unigramq1.png Graphic file (type png)
+
+<use Unigramq1.png> <bigramsq1.png, id=171, 481.8pt x 481.8pt>
+File: bigramsq1.png Graphic file (type png)
+
+<use bigramsq1.png> [4 <./Unigramq1.png (PNG copy)>]
+<Trigramq1.png, id=192, 481.8pt x 481.8pt>
+File: Trigramq1.png Graphic file (type png)
+ <use Trigramq1.png>
+Overfull \hbox (158.02232pt too wide) in paragraph at lines 60--68
+[][]$\OT1/cmtt/m/n/10 http : / / www . foxnews . com / us / 2015 / 02 / 09 / ju
+dge-[]rules-[]utah-[]woman-[]accused-[]leaving-[]baby-[]in-[]trash-[]is-[]incom
+petent-[]to-[]stand /
+ []
+
+
+Overfull \hbox (26.02342pt too wide) in paragraph at lines 69--77
+[][]$\OT1/cmtt/m/n/10 http : / / www . ebay . com / itm / like / 301515875453 ?
+ item = 301515875453&lgeo = 1&utm _ medium = twitter&utm _
+ []
+
+) [5 <./bigramsq1.png (PNG copy)>] [6 <./Trigramq1.png (PNG copy)>]
 \openout2 = `part2.aux'.
 
- (./part2.tex [3
+
+(./part2.tex (./getmaps.py
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1.
+ [7
 
 
-])
+]
+LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <8> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 83.
+ [8] [9]
+Overfull \hbox (43.23846pt too wide) in paragraph at lines 169--171
+[][] 
+ []
+
+) <mementocounts.png, id=397, 481.8pt x 481.8pt>
+File: mementocounts.png Graphic file (type png)
+ <use mementocounts.png>
+[10 <./mementocounts.png (PNG copy)>])
 \openout2 = `part3.aux'.
 
  (./part3.tex
@@ -480,154 +539,155 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
- <url1.png, id=74, 481.8pt x 481.8pt>
+
+<url1.png, id=433, 481.8pt x 481.8pt>
 File: url1.png Graphic file (type png)
  <use url1.png>
-<url2.png, id=75, 481.8pt x 481.8pt>
+<url2.png, id=434, 481.8pt x 481.8pt>
 File: url2.png Graphic file (type png)
  <use url2.png>
-<url3.png, id=76, 481.8pt x 481.8pt>
+<url3.png, id=435, 481.8pt x 481.8pt>
 File: url3.png Graphic file (type png)
  <use url3.png>
-<url4.png, id=77, 481.8pt x 481.8pt>
+<url4.png, id=436, 481.8pt x 481.8pt>
 File: url4.png Graphic file (type png)
  <use url4.png>
-<url5.png, id=78, 481.8pt x 481.8pt>
+<url5.png, id=437, 481.8pt x 481.8pt>
 File: url5.png Graphic file (type png)
  <use url5.png>
-<url6.png, id=79, 481.8pt x 481.8pt>
+<url6.png, id=438, 481.8pt x 481.8pt>
 File: url6.png Graphic file (type png)
  <use url6.png>
-<url7.png, id=80, 481.8pt x 481.8pt>
+<url7.png, id=439, 481.8pt x 481.8pt>
 File: url7.png Graphic file (type png)
  <use url7.png>
-<url8.png, id=81, 481.8pt x 481.8pt>
+<url8.png, id=440, 481.8pt x 481.8pt>
 File: url8.png Graphic file (type png)
- <use url8.png> [4
+ <use url8.png> [11
 
 
- <./url1.png (PNG copy)>] [5 <./url2.png (PNG copy)> <./url3.png (PNG copy)>] [
-6 <./url4.png (PNG copy)> <./url5.png (PNG copy)>] [7 <./url6.png (PNG copy)> <
-./url7.png (PNG copy)>]
-[8 <./url8.png (PNG copy)>] <url9.png, id=120, 481.8pt x 481.8pt>
+ <./url1.png (PNG copy)>] [12 <./url2.png (PNG copy)> <./url3.png (PNG copy)>] 
+[13 <./url4.png (PNG copy)> <./url5.png (PNG copy)>] [14 <./url6.png (PNG copy)
+> <./url7.png (PNG copy)>] [15 <./url8.png (PNG copy)>] <url9.png, id=480, 481.
+8pt x 481.8pt>
 File: url9.png Graphic file (type png)
 
-<use url9.png> <url10.png, id=121, 481.8pt x 481.8pt>
+<use url9.png> <url10.png, id=481, 481.8pt x 481.8pt>
 File: url10.png Graphic file (type png)
  <use url10.png>
-<url11.png, id=122, 481.8pt x 481.8pt>
+<url11.png, id=482, 481.8pt x 481.8pt>
 File: url11.png Graphic file (type png)
  <use url11.png>
-<url12.png, id=123, 481.8pt x 481.8pt>
+<url12.png, id=483, 481.8pt x 481.8pt>
 File: url12.png Graphic file (type png)
  <use url12.png>
-<url13.png, id=124, 481.8pt x 481.8pt>
+<url13.png, id=484, 481.8pt x 481.8pt>
 File: url13.png Graphic file (type png)
  <use url13.png>
-<url14.png, id=125, 481.8pt x 481.8pt>
+<url14.png, id=485, 481.8pt x 481.8pt>
 File: url14.png Graphic file (type png)
  <use url14.png>
-<url15.png, id=126, 481.8pt x 481.8pt>
+<url15.png, id=486, 481.8pt x 481.8pt>
 File: url15.png Graphic file (type png)
  <use url15.png>
-<url16.png, id=127, 481.8pt x 481.8pt>
+<url16.png, id=487, 481.8pt x 481.8pt>
 File: url16.png Graphic file (type png)
- <use url16.png> [9
+ <use url16.png> [16
 
- <./url9.png (PNG copy)>] [10 <./url10.png (PNG copy)> <./url11.png (PNG copy)>
-] [11 <./url12.png (PNG copy)> <./url13.png (PNG copy)>] [12 <./url14.png (PNG 
-copy)> <./url15.png (PNG copy)>] [13 <./url16.png (PNG copy)>]
-<url17.png, id=165, 481.8pt x 481.8pt>
+ <./url9.png (PNG copy)>] [17 <./url10.png (PNG copy)> <./url11.png (PNG copy)>
+] [18 <./url12.png (PNG copy)> <./url13.png (PNG copy)>] [19 <./url14.png (PNG 
+copy)> <./url15.png (PNG copy)>] [20 <./url16.png (PNG copy)>]
+<url17.png, id=525, 481.8pt x 481.8pt>
 File: url17.png Graphic file (type png)
  <use url17.png>
-<url18.png, id=166, 481.8pt x 481.8pt>
+<url18.png, id=526, 481.8pt x 481.8pt>
 File: url18.png Graphic file (type png)
  <use url18.png>
-<url19.png, id=167, 481.8pt x 481.8pt>
+<url19.png, id=527, 481.8pt x 481.8pt>
 File: url19.png Graphic file (type png)
  <use url19.png>
-<url20.png, id=168, 481.8pt x 481.8pt>
+<url20.png, id=528, 481.8pt x 481.8pt>
 File: url20.png Graphic file (type png)
- <use url20.png>) [14
+ <use url20.png>) [21
 
- <./url17.png (PNG copy)>] [15 <./url18.png (PNG copy)> <./url19.png (PNG copy)
->] [16 <./url20.png (PNG copy)>]
+ <./url17.png (PNG copy)>] [22 <./url18.png (PNG copy)> <./url19.png (PNG copy)
+>] [23 <./url20.png (PNG copy)>]
 \openout2 = `part4.aux'.
 
- (./part4.tex <Day1Wall.JPG, id=193, 1168.365pt x 785.93625pt>
+ (./part4.tex <Day1Wall.JPG, id=553, 1168.365pt x 785.93625pt>
 File: Day1Wall.JPG Graphic file (type jpg)
 
-<use Day1Wall.JPG> <Day2Wall.JPG, id=194, 1231.60126pt x 782.925pt>
+<use Day1Wall.JPG> <Day2Wall.JPG, id=554, 1231.60126pt x 782.925pt>
 File: Day2Wall.JPG Graphic file (type jpg)
 
 <use Day2Wall.JPG>
-Overfull \hbox (21.15929pt too wide) in paragraph at lines 41--42
+Overfull \hbox (21.15929pt too wide) in paragraph at lines 49--50
  [] 
  []
 
-<Day3Wall.JPG, id=195, 1184.92688pt x 783.67781pt>
+<Day3Wall.JPG, id=555, 1184.92688pt x 783.67781pt>
 File: Day3Wall.JPG Graphic file (type jpg)
  <use Day3Wall.JPG>
-Overfull \hbox (2.48987pt too wide) in paragraph at lines 47--48
+Overfull \hbox (2.48987pt too wide) in paragraph at lines 55--56
  [] 
  []
 
-<Day4Wall.JPG, id=196, 1174.3875pt x 791.95876pt>
+<Day4Wall.JPG, id=556, 1174.3875pt x 791.95876pt>
 File: Day4Wall.JPG Graphic file (type jpg)
  <use Day4Wall.JPG>
-<Day5Wall.JPG, id=197, 1187.93813pt x 789.70032pt>
+<Day5Wall.JPG, id=557, 1187.93813pt x 789.70032pt>
 File: Day5Wall.JPG Graphic file (type jpg)
  <use Day5Wall.JPG>
-Overfull \hbox (3.69435pt too wide) in paragraph at lines 60--61
+Overfull \hbox (3.69435pt too wide) in paragraph at lines 68--69
  [] 
  []
 
-<wordcloudday1.JPG, id=198, 555.57562pt x 569.87906pt>
+<wordcloudday1.JPG, id=558, 555.57562pt x 569.87906pt>
 File: wordcloudday1.JPG Graphic file (type jpg)
  <use wordcloudday1.JPG>
-Overfull \hbox (28.54094pt too wide) in paragraph at lines 66--67
+Overfull \hbox (28.54094pt too wide) in paragraph at lines 74--75
  [] 
  []
 
-<wordcloudday2.JPG, id=199, 542.025pt x 562.35094pt>
+<wordcloudday2.JPG, id=559, 542.025pt x 562.35094pt>
 File: wordcloudday2.JPG Graphic file (type jpg)
  <use wordcloudday2.JPG>
-Overfull \hbox (16.34549pt too wide) in paragraph at lines 72--73
+Overfull \hbox (16.34549pt too wide) in paragraph at lines 80--81
  [] 
  []
 
-<wordcloudday3.JPG, id=200, 596.98032pt x 610.53094pt>
+<wordcloudday3.JPG, id=560, 596.98032pt x 610.53094pt>
 File: wordcloudday3.JPG Graphic file (type jpg)
  <use wordcloudday3.JPG>
-Overfull \hbox (65.80482pt too wide) in paragraph at lines 78--79
+Overfull \hbox (65.80482pt too wide) in paragraph at lines 86--87
  [] 
  []
 
-<wordcloudday4.JPG, id=201, 590.205pt x 597.73312pt>
+<wordcloudday4.JPG, id=561, 590.205pt x 597.73312pt>
 File: wordcloudday4.JPG Graphic file (type jpg)
  <use wordcloudday4.JPG>
-Overfull \hbox (59.70709pt too wide) in paragraph at lines 84--85
+Overfull \hbox (59.70709pt too wide) in paragraph at lines 92--93
  [] 
  []
 
-<wordcloudday5.jpg, id=202, 484.81125pt x 530.73282pt>
+<wordcloudday5.jpg, id=562, 484.81125pt x 530.73282pt>
 File: wordcloudday5.jpg Graphic file (type jpg)
  <use wordcloudday5.jpg>
-[17
+[24
 
 
- <./Day1Wall.JPG>]) [18 <./Day2Wall.JPG>] [19 <./Day3Wall.JPG>] [20 <./Day4Wall
-.JPG>] [21 <./Day5Wall.JPG>] [22 <./wordcloudday1.JPG>] [23 <./wordcloudday2.JP
-G>] [24 <./wordcloudday3.JPG>] [25 <./wordcloudday4.JPG>] [26 <./wordcloudday5.
-jpg>] (./main.bbl
-Overfull \hbox (2.67854pt too wide) in paragraph at lines 8--12
+]) [25 <./Day1Wall.JPG>] [26 <./Day2Wall.JPG>] [27 <./Day3Wall.JPG>]
+[28 <./Day4Wall.JPG>] [29 <./Day5Wall.JPG>] [30 <./wordcloudday1.JPG>] [31 <./w
+ordcloudday2.JPG>] [32 <./wordcloudday3.JPG>] [33 <./wordcloudday4.JPG>]
+[34 <./wordcloudday5.jpg>] (./main.bbl
+Overfull \hbox (2.67854pt too wide) in paragraph at lines 20--24
 []\OT1/cmr/m/n/10 Wordcount.  https://github.com/mlafeldt/google-python-class/b
 lob/master/basic/solution/wordcount.py.
  []
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
- [27
+ [35
 
 
 ]
@@ -635,32 +695,37 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
  (./main.aux (./part1.aux) (./part2.aux) (./part3.aux) (./part4.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 54.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 88F2C6A6124A87F236AAE6A666F34A60;436.
+(rerunfilecheck)             Checksum: C1591CE7899379A47D9E6BB1D30529A9;559.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7545 strings out of 493747
- 113631 string characters out of 3143546
- 199805 words of memory out of 3000000
- 10576 multiletter control sequences out of 15000+200000
- 8669 words of font info for 31 fonts, out of 3000000 for 9000
+ 8160 strings out of 493747
+ 121951 string characters out of 3143546
+ 622864 words of memory out of 3000000
+ 10861 multiletter control sequences out of 15000+200000
+ 9330 words of font info for 33 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 33i,7n,32p,285b,351s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 35i,7n,45p,457b,1810s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
-/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/l
-ocal/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
-cal/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (28 pages, 2781675 bytes).
+</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
+usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
+al/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
+/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/te
+xlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
+live/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
+ve/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive
+/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (36 pages, 2898268 bytes).
 PDF statistics:
- 307 PDF objects out of 1000 (max. 8388607)
- 216 compressed objects within 3 object streams
- 71 named destinations out of 1000 (max. 500000)
- 215 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 750 PDF objects out of 1000 (max. 8388607)
+ 634 compressed objects within 7 object streams
+ 377 named destinations out of 1000 (max. 500000)
+ 251 words of extra memory for PDF output out of 10000 (max. 10000000)
 

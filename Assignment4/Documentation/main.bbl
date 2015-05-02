@@ -1,17 +1,25 @@
 \begin{thebibliography}{1}
 
+\bibitem{Cumulative}
+{C}umulative.
+\newblock http://www.r-bloggers.com.
+
 \bibitem{jusText}
 jus{T}ext.
 \newblock https://pypi.python.org/pypi/jusText/2.1.0.
+
+\bibitem{timelapse}
+timelapse.
+\newblock https://github.com/burg/timelapse/.
+
+\bibitem{twarc}
+twarc.
+\newblock https://github.com/edsu/twarc.
 
 \bibitem{Wordcount}
 Wordcount.
 \newblock
   https://github.com/mlafeldt/google-python-class/blob/master/basic/solution/wordcount.py.
 \newblock Accessed: 2015-04-03.
-
-\bibitem{Zipf}
-{Z}ipf.
-\newblock https://plus.maths.org/content/mystery-zipf.
 
 \end{thebibliography}

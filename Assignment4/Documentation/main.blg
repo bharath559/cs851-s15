@@ -8,47 +8,49 @@ A level-1 auxiliary file: part4.aux
 The style file: plain.bst
 Database file #1: assignment4.bib
 Warning--to sort, need author or key in jusText
+Warning--to sort, need author or key in Cumulative
+Warning--to sort, need author or key in timelapse
+Warning--to sort, need author or key in twarc
 Warning--to sort, need author or key in Wordcount
-Warning--to sort, need author or key in Zipf
-You've used 3 entries,
+You've used 5 entries,
             2118 wiz_defined-function locations,
-            513 strings with 4275 characters,
-and the built_in function-call counts, 506 in all, are:
-= -- 47
-> -- 3
+            517 strings with 4352 characters,
+and the built_in function-call counts, 824 in all, are:
+= -- 77
+> -- 5
 < -- 0
-+ -- 3
++ -- 5
 - -- 0
-* -- 17
-:= -- 62
-add.period$ -- 7
-call.type$ -- 3
-change.case$ -- 9
+* -- 27
+:= -- 96
+add.period$ -- 11
+call.type$ -- 5
+change.case$ -- 15
 chr.to.int$ -- 0
-cite$ -- 6
-duplicate$ -- 21
-empty$ -- 70
+cite$ -- 10
+duplicate$ -- 35
+empty$ -- 116
 format.name$ -- 0
-if$ -- 123
+if$ -- 203
 int.to.chr$ -- 0
-int.to.str$ -- 3
+int.to.str$ -- 5
 missing$ -- 0
-newline$ -- 16
+newline$ -- 24
 num.names$ -- 0
-pop$ -- 26
+pop$ -- 42
 preamble$ -- 1
-purify$ -- 6
+purify$ -- 10
 quote$ -- 0
-skip$ -- 21
+skip$ -- 37
 stack$ -- 0
-substring$ -- 15
-swap$ -- 3
+substring$ -- 25
+swap$ -- 5
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 12
-warning$ -- 3
+type$ -- 20
+warning$ -- 5
 while$ -- 0
-width$ -- 4
-write$ -- 25
-(There were 3 warnings)
+width$ -- 6
+write$ -- 39
+(There were 5 warnings)

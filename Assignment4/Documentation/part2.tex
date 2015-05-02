@@ -12,9 +12,21 @@
 
 \end{itemize}
 \subsection{Solution}
+\begin{itemize}
+ \item I used `timelapse'\cite{timelapse} library to retrieve TimeMaps of each of the URIs.
+ \item `timelapse'\cite{timelapse} library extracts memento created date along with memento.
+ \item Out of 9,800 URIs, TimeMaps are retrieved for 8200 which includes empty files.
+ \item I ran multiple instances to retrieve TimeMaps as aggregator was taking time.
+ \item Few times retrieval stopped because of request time out error. I waited for a few minutes before running it again.
+ \item I have uploaded TimeMaps of each of the URIs to Github.
+\end{itemize}
 
-Each line of text file are parsed by splitting words on space and constructed dictionary to get the unique word list.
-Here is the Python program which calculates top 50 unique word frequencies.
+\lstinputlisting[language=Python,breaklines = true,frame=single,caption={Python program to retrieve TimeMap of each of the URIs}, label=lst:q1-1,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{getmaps.py}
 
-%\lstinputlisting[language=Python,breaklines = true,frame=single,caption={Python program for calculating unique words frequency}, label=lst:q1-1,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{getuniquefromText.py}
+\begin{figure}[ht]
+	\begin{center}
+		 \includegraphics[scale=0.60]{mementocounts.png}
+		  \caption{CDF of Number of Memento count per URI}
+	 \end{center}
+\end{figure}
 \newpage
